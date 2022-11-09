@@ -390,16 +390,13 @@ export function transformFile(code) {
 export function extractI18nKey(code, filePath) {
   let ast = createAst(code)
   const langs = []
-
+  const isIncludeImportModule = ast.program.body.find((n) => {
+    return t.isImportDeclaration(n) && n.source.value === 'i18next'
+  })
+  if (!isIncludeImportModule) {
+    return []
+  }
   traverse.default(ast, {
-    ...skipMixin,
-    JSXAttribute(p) {
-      if (isSkipJsxAttrRule(p)) {
-        p.skip()
-      } else {
-        return
-      }
-    },
     CallExpression(p) {
       const fnName = p.node.callee.name
       const args = p.node.arguments
