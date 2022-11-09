@@ -30,23 +30,23 @@
     }
   },
   {
-    "key": "Service Accounts",
-    "value": "Service Accounts",
+    "key": "Access Keys",
+    "value": "Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\Account.tsx",
     "pos": {
       "line": 209,
       "column": 25,
-      "index": 6425
+      "index": 6420
     }
   },
   {
-    "key": "Search Service Accounts",
-    "value": "Search Service Accounts",
+    "key": "Search Access Keys",
+    "value": "Search Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\Account.tsx",
     "pos": {
       "line": 213,
       "column": 23,
-      "index": 6584
+      "index": 6574
     }
   },
   {
@@ -56,7 +56,7 @@
     "pos": {
       "line": 225,
       "column": 37,
-      "index": 6876
+      "index": 6861
     }
   },
   {
@@ -66,7 +66,7 @@
     "pos": {
       "line": 231,
       "column": 21,
-      "index": 7082
+      "index": 7067
     }
   },
   {
@@ -76,37 +76,37 @@
     "pos": {
       "line": 246,
       "column": 24,
-      "index": 7628
+      "index": 7613
     }
   },
   {
-    "key": "Create service account",
-    "value": "Create service account",
+    "key": "Create access key",
+    "value": "Create access key",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\Account.tsx",
     "pos": {
       "line": 257,
       "column": 22,
-      "index": 7991
+      "index": 7976
     }
   },
   {
-    "key": "Learn more about SERVICE ACCOUNTS",
-    "value": "Learn more about SERVICE ACCOUNTS",
+    "key": "Learn more about ACCESS KEYS",
+    "value": "Learn more about ACCESS KEYS",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\Account.tsx",
     "pos": {
       "line": 279,
       "column": 17,
-      "index": 8727
+      "index": 8697
     }
   },
   {
-    "key": "MinIO service accounts are child identities of an authenticated MinIO user, including externally managed identities. Each service account inherits its privileges based on the policies attached to it’s parent user or those groups in which the parent user has membership. Service accounts also support an optional inline policy which further restricts access to a subset of actions and resources available to the parent user.",
-    "value": "MinIO service accounts are child identities of an authenticated MinIO user, including externally managed identities. Each service account inherits its privileges based on the policies attached to it’s parent user or those groups in which the parent user has membership. Service accounts also support an optional inline policy which further restricts access to a subset of actions and resources available to the parent user.",
+    "key": "MinIO access keys are child identities of an authenticated MinIO user, including externally managed identities. Each access key inherits its privileges based on the policies attached to it’s parent user or those groups in which the parent user has membership. Access Keys also support an optional inline policy which further restricts access to a subset of actions and resources available to the parent user.",
+    "value": "MinIO access keys are child identities of an authenticated MinIO user, including externally managed identities. Each access key inherits its privileges based on the policies attached to it’s parent user or those groups in which the parent user has membership. Access Keys also support an optional inline policy which further restricts access to a subset of actions and resources available to the parent user.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\Account.tsx",
     "pos": {
       "line": 282,
       "column": 21,
-      "index": 8847
+      "index": 8812
     }
   },
   {
@@ -116,7 +116,7 @@
     "pos": {
       "line": 291,
       "column": 23,
-      "index": 9327
+      "index": 9277
     }
   },
   {
@@ -124,14 +124,14 @@
     "value": "documentation",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\Account.tsx",
     "pos": {
-      "line": 296,
+      "line": 299,
       "column": 30,
-      "index": 9600
+      "index": 9653
     }
   },
   {
-    "key": "Learn more about Service Accounts",
-    "value": "Learn more about Service Accounts",
+    "key": "Learn more about Access Keys",
+    "value": "Learn more about Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountHelpBox.tsx",
     "pos": {
       "line": 83,
@@ -140,23 +140,23 @@
     }
   },
   {
-    "key": "Create Service Accounts",
-    "value": "Create Service Accounts",
+    "key": "Create Access Keys",
+    "value": "Create Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountHelpBox.tsx",
     "pos": {
       "line": 89,
       "column": 26,
-      "index": 2301
+      "index": 2296
     }
   },
   {
-    "key": "Service Accounts inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
-    "value": "Service Accounts inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
+    "key": "Access Keys inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
+    "value": "Access Keys inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountHelpBox.tsx",
     "pos": {
       "line": 91,
       "column": 44,
-      "index": 2392
+      "index": 2382
     }
   },
   {
@@ -166,27 +166,27 @@
     "pos": {
       "line": 100,
       "column": 26,
-      "index": 2726
+      "index": 2711
     }
   },
   {
-    "key": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Service Account, you will be given the opportunity to view and download the account credentials.",
-    "value": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Service Account, you will be given the opportunity to view and download the account credentials.",
+    "key": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Access Key, you will be given the opportunity to view and download the account credentials.",
+    "value": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Access Key, you will be given the opportunity to view and download the account credentials.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountHelpBox.tsx",
     "pos": {
       "line": 102,
       "column": 44,
-      "index": 2819
+      "index": 2804
     }
   },
   {
-    "key": "Service Accounts support programmatic access by applications. You cannot use a Service Account to log into the MinIO Console.",
-    "value": "Service Accounts support programmatic access by applications. You cannot use a Service Account to log into the MinIO Console.",
+    "key": "Access Keys support programmatic access by applications. You cannot use a Access Key to log into the MinIO Console.",
+    "value": "Access Keys support programmatic access by applications. You cannot use a Access Key to log into the MinIO Console.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountHelpBox.tsx",
     "pos": {
       "line": 109,
       "column": 44,
-      "index": 3170
+      "index": 3150
     }
   },
   {
@@ -196,47 +196,47 @@
     "pos": {
       "line": 117,
       "column": 26,
-      "index": 3470
+      "index": 3440
     }
   },
   {
-    "key": "You can specify an optional JSON-formatted IAM policy to further restrict Service Account access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
-    "value": "You can specify an optional JSON-formatted IAM policy to further restrict Service Account access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
+    "key": "You can specify an optional JSON-formatted IAM policy to further restrict Access Key access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
+    "value": "You can specify an optional JSON-formatted IAM policy to further restrict Access Key access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountHelpBox.tsx",
     "pos": {
       "line": 119,
       "column": 44,
-      "index": 3560
+      "index": 3530
     }
   },
   {
-    "key": "You cannot modify the optional Service Account IAM policy after saving.",
-    "value": "You cannot modify the optional Service Account IAM policy after saving.",
+    "key": "You cannot modify the optional Access Key IAM policy after saving.",
+    "value": "You cannot modify the optional Access Key IAM policy after saving.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountHelpBox.tsx",
     "pos": {
       "line": 126,
       "column": 44,
-      "index": 3906
+      "index": 3871
     }
   },
   {
-    "key": "Service Accounts",
-    "value": "Service Accounts",
+    "key": "Access Keys",
+    "value": "Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountScreen.tsx",
     "pos": {
       "line": 157,
       "column": 55,
-      "index": 5331
+      "index": 5326
     }
   },
   {
-    "key": "Create Service Account",
-    "value": "Create Service Account",
+    "key": "Create Access Key",
+    "value": "Create Access Key",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountScreen.tsx",
     "pos": {
       "line": 173,
       "column": 70,
-      "index": 5769
+      "index": 5759
     }
   },
   {
@@ -246,7 +246,7 @@
     "pos": {
       "line": 199,
       "column": 41,
-      "index": 6845
+      "index": 6830
     }
   },
   {
@@ -256,7 +256,7 @@
     "pos": {
       "line": 202,
       "column": 47,
-      "index": 7013
+      "index": 6998
     }
   },
   {
@@ -266,7 +266,7 @@
     "pos": {
       "line": 213,
       "column": 41,
-      "index": 7578
+      "index": 7563
     }
   },
   {
@@ -276,7 +276,7 @@
     "pos": {
       "line": 217,
       "column": 47,
-      "index": 7822
+      "index": 7807
     }
   },
   {
@@ -286,17 +286,17 @@
     "pos": {
       "line": 257,
       "column": 33,
-      "index": 9490
+      "index": 9475
     }
   },
   {
-    "key": "Current User Policy - edit the JSON to remove permissions for this service account",
-    "value": "Current User Policy - edit the JSON to remove permissions for this service account",
+    "key": "Current User Policy - edit the JSON to remove permissions for this Access Key",
+    "value": "Current User Policy - edit the JSON to remove permissions for this Access Key",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\AddServiceAccountScreen.tsx",
     "pos": {
       "line": 272,
       "column": 39,
-      "index": 10266
+      "index": 10246
     }
   },
   {
@@ -306,7 +306,7 @@
     "pos": {
       "line": 295,
       "column": 27,
-      "index": 11201
+      "index": 11176
     }
   },
   {
@@ -316,7 +316,7 @@
     "pos": {
       "line": 303,
       "column": 27,
-      "index": 11443
+      "index": 11418
     }
   },
   {
@@ -420,8 +420,8 @@
     }
   },
   {
-    "key": "Delete Service Account",
-    "value": "Delete Service Account",
+    "key": "Delete Access Key",
+    "value": "Delete Access Key",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\DeleteServiceAccount.tsx",
     "pos": {
       "line": 75,
@@ -430,18 +430,18 @@
     }
   },
   {
-    "key": "Are you sure you want to delete service account",
-    "value": "Are you sure you want to delete service account",
+    "key": "Are you sure you want to delete Access Key",
+    "value": "Are you sure you want to delete Access Key",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\DeleteServiceAccount.tsx",
     "pos": {
       "line": 83,
       "column": 24,
-      "index": 2708
+      "index": 2703
     }
   },
   {
-    "key": "Service Account Policy",
-    "value": "Service Account Policy",
+    "key": "Access Key Policy",
+    "value": "Access Key Policy",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\ServiceAccountPolicy.tsx",
     "pos": {
       "line": 115,
@@ -450,13 +450,13 @@
     }
   },
   {
-    "key": "Service Account Policy",
-    "value": "Service Account Policy",
+    "key": "Access Key Policy",
+    "value": "Access Key Policy",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Account\\ServiceAccountPolicy.tsx",
     "pos": {
       "line": 132,
       "column": 22,
-      "index": 3815
+      "index": 3810
     }
   },
   {
@@ -466,7 +466,7 @@
     "pos": {
       "line": 149,
       "column": 19,
-      "index": 4376
+      "index": 4366
     }
   },
   {
@@ -476,7 +476,7 @@
     "pos": {
       "line": 157,
       "column": 19,
-      "index": 4597
+      "index": 4587
     }
   },
   {
@@ -1204,9 +1204,9 @@
     "value": "Start typing to filter objects in the bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BrowserHandler.tsx",
     "pos": {
-      "line": 125,
+      "line": 124,
       "column": 19,
-      "index": 4463
+      "index": 4434
     }
   },
   {
@@ -1214,9 +1214,9 @@
     "value": "Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BrowserHandler.tsx",
     "pos": {
-      "line": 150,
+      "line": 149,
       "column": 30,
-      "index": 5035
+      "index": 5006
     }
   },
   {
@@ -1224,9 +1224,9 @@
     "value": "Configure Bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BrowserHandler.tsx",
     "pos": {
-      "line": 159,
+      "line": 158,
       "column": 33,
-      "index": 5328
+      "index": 5299
     }
   },
   {
@@ -1614,9 +1614,9 @@
     "value": "Add Lifecycle Rule",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BucketLifecyclePanel.tsx",
     "pos": {
-      "line": 286,
+      "line": 283,
       "column": 37,
-      "index": 8427
+      "index": 8376
     }
   },
   {
@@ -1624,9 +1624,9 @@
     "value": "Add Lifecycle Rule",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BucketLifecyclePanel.tsx",
     "pos": {
-      "line": 292,
+      "line": 289,
       "column": 21,
-      "index": 8635
+      "index": 8584
     }
   },
   {
@@ -1634,9 +1634,9 @@
     "value": "There are no Lifecycle rules yet",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BucketLifecyclePanel.tsx",
     "pos": {
-      "line": 311,
+      "line": 308,
       "column": 32,
-      "index": 9290
+      "index": 9239
     }
   },
   {
@@ -1644,9 +1644,9 @@
     "value": "Lifecycle Rules",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BucketLifecyclePanel.tsx",
     "pos": {
-      "line": 321,
+      "line": 318,
       "column": 17,
-      "index": 9584
+      "index": 9533
     }
   },
   {
@@ -1654,9 +1654,9 @@
     "value": "MinIO Object Lifecycle Management allows creating rules for time or date based automatic transition or expiry of objects. For object transition, MinIO automatically moves the object to a configured remote storage tier.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BucketLifecyclePanel.tsx",
     "pos": {
-      "line": 324,
+      "line": 321,
       "column": 21,
-      "index": 9684
+      "index": 9633
     }
   },
   {
@@ -1664,9 +1664,9 @@
     "value": "You can learn more at our",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BucketLifecyclePanel.tsx",
     "pos": {
-      "line": 330,
+      "line": 327,
       "column": 25,
-      "index": 9958
+      "index": 9907
     }
   },
   {
@@ -1674,9 +1674,9 @@
     "value": "documentation",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\BucketDetails\\BucketLifecyclePanel.tsx",
     "pos": {
-      "line": 335,
+      "line": 332,
       "column": 30,
-      "index": 10213
+      "index": 10162
     }
   },
   {
@@ -3384,9 +3384,9 @@
     "value": "Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 240,
+      "line": 239,
       "column": 37,
-      "index": 7523
+      "index": 7532
     }
   },
   {
@@ -3396,7 +3396,7 @@
     "pos": {
       "line": 250,
       "column": 23,
-      "index": 7865
+      "index": 7899
     }
   },
   {
@@ -3404,9 +3404,9 @@
     "value": "Unselect Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 271,
+      "line": 274,
       "column": 27,
-      "index": 8374
+      "index": 8457
     }
   },
   {
@@ -3414,9 +3414,9 @@
     "value": "Select Multiple Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 271,
+      "line": 274,
       "column": 51,
-      "index": 8398
+      "index": 8481
     }
   },
   {
@@ -3424,9 +3424,9 @@
     "value": "Unselect All Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 288,
+      "line": 296,
       "column": 66,
-      "index": 8981
+      "index": 9152
     }
   },
   {
@@ -3434,39 +3434,9 @@
     "value": "Select All Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 288,
+      "line": 296,
       "column": 94,
-      "index": 9009
-    }
-  },
-  {
-    "key": "Please select at least one bucket on which to configure Lifecycle",
-    "value": "Please select at least one bucket on which to configure Lifecycle",
-    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
-    "pos": {
-      "line": 305,
-      "column": 27,
-      "index": 9450
-    }
-  },
-  {
-    "key": "Use the Select Multiple Buckets button to choose buckets on which to configure Lifecycle",
-    "value": "Use the Select Multiple Buckets button to choose buckets on which to configure Lifecycle",
-    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
-    "pos": {
-      "line": 305,
-      "column": 100,
-      "index": 9523
-    }
-  },
-  {
-    "key": "Set Lifecycle",
-    "value": "Set Lifecycle",
-    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
-    "pos": {
-      "line": 308,
-      "column": 32,
-      "index": 9653
+      "index": 9180
     }
   },
   {
@@ -3474,9 +3444,59 @@
     "value": "configure lifecycle for the selected buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 311,
+      "line": 316,
       "column": 59,
-      "index": 9773
+      "index": 9727
+    }
+  },
+  {
+    "key": "Please select at least one bucket on which to configure Lifecycle",
+    "value": "Please select at least one bucket on which to configure Lifecycle",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
+    "pos": {
+      "line": 320,
+      "column": 27,
+      "index": 9854
+    }
+  },
+  {
+    "key": "Use the Select Multiple Buckets button to choose buckets on which to configure Lifecycle",
+    "value": "Use the Select Multiple Buckets button to choose buckets on which to configure Lifecycle",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
+    "pos": {
+      "line": 320,
+      "column": 100,
+      "index": 9927
+    }
+  },
+  {
+    "key": "Set Lifecycle",
+    "value": "Set Lifecycle",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
+    "pos": {
+      "line": 320,
+      "column": 196,
+      "index": 10023
+    }
+  },
+  {
+    "key": "Please select at least one bucket on which to configure Replication",
+    "value": "Please select at least one bucket on which to configure Replication",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
+    "pos": {
+      "line": 342,
+      "column": 27,
+      "index": 10620
+    }
+  },
+  {
+    "key": "Use the Select Multiple Buckets button to choose buckets on which to configure Replication",
+    "value": "Use the Select Multiple Buckets button to choose buckets on which to configure Replication",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
+    "pos": {
+      "line": 342,
+      "column": 102,
+      "index": 10695
     }
   },
   {
@@ -3484,9 +3504,9 @@
     "value": "Set Replication",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 327,
-      "column": 41,
-      "index": 10267
+      "line": 342,
+      "column": 200,
+      "index": 10793
     }
   },
   {
@@ -3494,9 +3514,9 @@
     "value": "Refresh",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 341,
+      "line": 361,
       "column": 37,
-      "index": 10732
+      "index": 11279
     }
   },
   {
@@ -3504,9 +3524,9 @@
     "value": "create a bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 358,
+      "line": 378,
       "column": 43,
-      "index": 11213
+      "index": 11760
     }
   },
   {
@@ -3514,9 +3534,9 @@
     "value": "Create Bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 371,
+      "line": 391,
       "column": 21,
-      "index": 11545
+      "index": 12092
     }
   },
   {
@@ -3524,9 +3544,9 @@
     "value": "No Results",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 401,
+      "line": 421,
       "column": 21,
-      "index": 12393
+      "index": 12940
     }
   },
   {
@@ -3534,9 +3554,9 @@
     "value": "No buckets match the filtering condition",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 403,
+      "line": 423,
       "column": 25,
-      "index": 12456
+      "index": 13003
     }
   },
   {
@@ -3544,9 +3564,9 @@
     "value": "Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 421,
+      "line": 441,
       "column": 21,
-      "index": 12963
+      "index": 13469
     }
   },
   {
@@ -3554,9 +3574,19 @@
     "value": "MinIO uses buckets to organize objects. A bucket is similar to a folder or directory in a filesystem, where each bucket can hold an arbitrary number of objects.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 423,
+      "line": 443,
       "column": 25,
-      "index": 13023
+      "index": 13529
+    }
+  },
+  {
+    "key": "view the buckets on this server",
+    "value": "view the buckets on this server",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
+    "pos": {
+      "line": 454,
+      "column": 47,
+      "index": 13952
     }
   },
   {
@@ -3564,9 +3594,9 @@
     "value": "To get started,",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 442,
+      "line": 464,
       "column": 33,
-      "index": 13835
+      "index": 14302
     }
   },
   {
@@ -3574,9 +3604,9 @@
     "value": "Create a Bucket.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\ListBuckets.tsx",
     "pos": {
-      "line": 447,
+      "line": 469,
       "column": 22,
-      "index": 13995
+      "index": 14462
     }
   },
   {
@@ -3894,9 +3924,9 @@
     "value": "Download",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1302,
+      "line": 1293,
       "column": 11,
-      "index": 37065
+      "index": 36966
     }
   },
   {
@@ -3904,9 +3934,9 @@
     "value": "Download Selected",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1305,
+      "line": 1296,
       "column": 27,
-      "index": 37195
+      "index": 37096
     }
   },
   {
@@ -3914,9 +3944,9 @@
     "value": "download objects from this bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1308,
+      "line": 1299,
       "column": 32,
-      "index": 37282
+      "index": 37183
     }
   },
   {
@@ -3924,9 +3954,9 @@
     "value": "Share",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1314,
+      "line": 1305,
       "column": 11,
-      "index": 37367
+      "index": 37268
     }
   },
   {
@@ -3934,9 +3964,9 @@
     "value": "Share Selected File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1317,
+      "line": 1308,
       "column": 28,
-      "index": 37493
+      "index": 37394
     }
   },
   {
@@ -3944,9 +3974,9 @@
     "value": "Sharing unavailable",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1317,
+      "line": 1308,
       "column": 55,
-      "index": 37520
+      "index": 37421
     }
   },
   {
@@ -3954,9 +3984,9 @@
     "value": "Preview",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1321,
+      "line": 1312,
       "column": 11,
-      "index": 37590
+      "index": 37491
     }
   },
   {
@@ -3964,9 +3994,9 @@
     "value": "Preview Selected File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1324,
+      "line": 1315,
       "column": 30,
-      "index": 37724
+      "index": 37625
     }
   },
   {
@@ -3974,9 +4004,9 @@
     "value": "Preview unavailable",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1324,
+      "line": 1315,
       "column": 59,
-      "index": 37753
+      "index": 37654
     }
   },
   {
@@ -3984,9 +4014,9 @@
     "value": "Delete",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1330,
+      "line": 1321,
       "column": 11,
-      "index": 37860
+      "index": 37761
     }
   },
   {
@@ -3994,9 +4024,9 @@
     "value": "Delete Selected Files",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1334,
+      "line": 1325,
       "column": 25,
-      "index": 38010
+      "index": 37911
     }
   },
   {
@@ -4004,9 +4034,9 @@
     "value": "delete objects in this bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1337,
+      "line": 1328,
       "column": 35,
-      "index": 38104
+      "index": 38005
     }
   },
   {
@@ -4014,9 +4044,9 @@
     "value": "Created:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1409,
+      "line": 1400,
       "column": 59,
-      "index": 40147
+      "index": 40048
     }
   },
   {
@@ -4024,9 +4054,9 @@
     "value": "Access:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1413,
+      "line": 1404,
       "column": 59,
-      "index": 40317
+      "index": 40218
     }
   },
   {
@@ -4034,9 +4064,9 @@
     "value": "Object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1429,
+      "line": 1420,
       "column": 49,
-      "index": 41027
+      "index": 40928
     }
   },
   {
@@ -4044,9 +4074,9 @@
     "value": "Rewind Bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1444,
+      "line": 1435,
       "column": 43,
-      "index": 41496
+      "index": 41397
     }
   },
   {
@@ -4054,9 +4084,9 @@
     "value": "Rewind",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1447,
+      "line": 1438,
       "column": 23,
-      "index": 41612
+      "index": 41513
     }
   },
   {
@@ -4064,9 +4094,9 @@
     "value": "Reload List",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1478,
+      "line": 1469,
       "column": 43,
-      "index": 42590
+      "index": 42491
     }
   },
   {
@@ -4074,9 +4104,9 @@
     "value": "Refresh",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1481,
+      "line": 1472,
       "column": 23,
-      "index": 42705
+      "index": 42606
     }
   },
   {
@@ -4084,9 +4114,9 @@
     "value": "Show deleted objects",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1572,
+      "line": 1563,
       "column": 27,
-      "index": 45765
+      "index": 45666
     }
   },
   {
@@ -4094,9 +4124,9 @@
     "value": ", please try uploading a new file",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1601,
+      "line": 1592,
       "column": 33,
-      "index": 46899
+      "index": 46800
     }
   },
   {
@@ -4104,9 +4134,9 @@
     "value": "Selected Objects:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ListObjects.tsx",
     "pos": {
-      "line": 1636,
+      "line": 1627,
       "column": 23,
-      "index": 48121
+      "index": 48022
     }
   },
   {
@@ -4134,9 +4164,9 @@
     "value": "Download",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 445,
+      "line": 444,
       "column": 11,
-      "index": 11962
+      "index": 11933
     }
   },
   {
@@ -4144,9 +4174,9 @@
     "value": "Download this Object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 448,
+      "line": 447,
       "column": 28,
-      "index": 12095
+      "index": 12066
     }
   },
   {
@@ -4154,9 +4184,9 @@
     "value": "download this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 451,
+      "line": 450,
       "column": 32,
-      "index": 12185
+      "index": 12156
     }
   },
   {
@@ -4164,9 +4194,9 @@
     "value": "Share",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 459,
+      "line": 458,
       "column": 11,
-      "index": 12282
+      "index": 12253
     }
   },
   {
@@ -4174,9 +4204,9 @@
     "value": "Share this File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 462,
+      "line": 461,
       "column": 28,
-      "index": 12409
+      "index": 12380
     }
   },
   {
@@ -4184,9 +4214,9 @@
     "value": "share this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 465,
+      "line": 464,
       "column": 32,
-      "index": 12494
+      "index": 12465
     }
   },
   {
@@ -4194,9 +4224,9 @@
     "value": "Preview",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 473,
+      "line": 472,
       "column": 11,
-      "index": 12595
+      "index": 12566
     }
   },
   {
@@ -4204,9 +4234,9 @@
     "value": "Preview this File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 479,
+      "line": 478,
       "column": 28,
-      "index": 12782
+      "index": 12753
     }
   },
   {
@@ -4214,9 +4244,9 @@
     "value": "preview this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 482,
+      "line": 481,
       "column": 32,
-      "index": 12869
+      "index": 12840
     }
   },
   {
@@ -4224,9 +4254,9 @@
     "value": "Legal Hold",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 490,
+      "line": 489,
       "column": 11,
-      "index": 12974
+      "index": 12945
     }
   },
   {
@@ -4234,9 +4264,9 @@
     "value": "Change Legal Hold rules for this File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 499,
+      "line": 498,
       "column": 14,
-      "index": 13209
+      "index": 13180
     }
   },
   {
@@ -4244,9 +4274,9 @@
     "value": "Object Locking must be enabled on this bucket in order to set Legal Hold",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 499,
+      "line": 498,
       "column": 59,
-      "index": 13254
+      "index": 13225
     }
   },
   {
@@ -4254,9 +4284,9 @@
     "value": "change legal hold settings for this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 503,
+      "line": 502,
       "column": 43,
-      "index": 13408
+      "index": 13379
     }
   },
   {
@@ -4264,9 +4294,9 @@
     "value": "Retention",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 509,
+      "line": 508,
       "column": 11,
-      "index": 13511
+      "index": 13482
     }
   },
   {
@@ -4274,9 +4304,9 @@
     "value": "Change Retention rules for this File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 518,
+      "line": 517,
       "column": 14,
-      "index": 13751
+      "index": 13722
     }
   },
   {
@@ -4284,9 +4314,9 @@
     "value": "Object Locking must be enabled on this bucket in order to set Retention Rules",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 518,
+      "line": 517,
       "column": 58,
-      "index": 13795
+      "index": 13766
     }
   },
   {
@@ -4294,9 +4324,9 @@
     "value": "change Retention Rules for this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 524,
+      "line": 523,
       "column": 41,
-      "index": 13998
+      "index": 13969
     }
   },
   {
@@ -4304,9 +4334,9 @@
     "value": "Tags",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 533,
+      "line": 532,
       "column": 11,
-      "index": 14122
+      "index": 14093
     }
   },
   {
@@ -4314,9 +4344,9 @@
     "value": "Change Tags for this File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 537,
+      "line": 536,
       "column": 26,
-      "index": 14273
+      "index": 14244
     }
   },
   {
@@ -4324,9 +4354,9 @@
     "value": "set Tags on this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 542,
+      "line": 541,
       "column": 39,
-      "index": 14419
+      "index": 14390
     }
   },
   {
@@ -4334,9 +4364,9 @@
     "value": "Inspect",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 551,
+      "line": 550,
       "column": 11,
-      "index": 14532
+      "index": 14503
     }
   },
   {
@@ -4344,9 +4374,9 @@
     "value": "Inspect this file",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 558,
+      "line": 557,
       "column": 26,
-      "index": 14726
+      "index": 14697
     }
   },
   {
@@ -4354,9 +4384,9 @@
     "value": "inspect this file",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 561,
+      "line": 560,
       "column": 37,
-      "index": 14818
+      "index": 14789
     }
   },
   {
@@ -4364,9 +4394,9 @@
     "value": "Hide Object Versions",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 574,
+      "line": 573,
       "column": 26,
-      "index": 15027
+      "index": 14998
     }
   },
   {
@@ -4374,9 +4404,9 @@
     "value": "Display Object Versions",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 574,
+      "line": 573,
       "column": 54,
-      "index": 15055
+      "index": 15026
     }
   },
   {
@@ -4384,9 +4414,9 @@
     "value": "Display Versions for this file",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 581,
+      "line": 580,
       "column": 64,
-      "index": 15345
+      "index": 15316
     }
   },
   {
@@ -4394,9 +4424,9 @@
     "value": "display all versions of this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 588,
+      "line": 587,
       "column": 39,
-      "index": 15549
+      "index": 15520
     }
   },
   {
@@ -4404,9 +4434,9 @@
     "value": "Just now",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 603,
+      "line": 602,
       "column": 60,
-      "index": 15931
+      "index": 15902
     }
   },
   {
@@ -4414,9 +4444,9 @@
     "value": "delete this object",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 707,
+      "line": 706,
       "column": 39,
-      "index": 18728
+      "index": 18699
     }
   },
   {
@@ -4424,9 +4454,9 @@
     "value": "version",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 742,
+      "line": 741,
       "column": 55,
-      "index": 19718
+      "index": 19689
     }
   },
   {
@@ -4434,9 +4464,9 @@
     "value": "Object Info",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 748,
+      "line": 747,
       "column": 19,
-      "index": 19929
+      "index": 19900
     }
   },
   {
@@ -4444,9 +4474,9 @@
     "value": "Name:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 752,
+      "line": 751,
       "column": 21,
-      "index": 20080
+      "index": 20051
     }
   },
   {
@@ -4454,9 +4484,9 @@
     "value": "Version ID:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 758,
+      "line": 757,
       "column": 23,
-      "index": 20327
+      "index": 20298
     }
   },
   {
@@ -4464,9 +4494,9 @@
     "value": "Size:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 764,
+      "line": 763,
       "column": 21,
-      "index": 20514
+      "index": 20485
     }
   },
   {
@@ -4474,9 +4504,9 @@
     "value": "Versions:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 772,
+      "line": 771,
       "column": 25,
-      "index": 20813
+      "index": 20784
     }
   },
   {
@@ -4484,9 +4514,9 @@
     "value": "version",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 774,
+      "line": 773,
       "column": 34,
-      "index": 20897
+      "index": 20868
     }
   },
   {
@@ -4494,9 +4524,9 @@
     "value": "Last Modified:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 780,
+      "line": 779,
       "column": 23,
-      "index": 21146
+      "index": 21117
     }
   },
   {
@@ -4504,9 +4534,9 @@
     "value": "ETAG:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 786,
+      "line": 785,
       "column": 21,
-      "index": 21370
+      "index": 21341
     }
   },
   {
@@ -4514,9 +4544,9 @@
     "value": "Tags:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 791,
+      "line": 790,
       "column": 21,
-      "index": 21544
+      "index": 21515
     }
   },
   {
@@ -4524,9 +4554,9 @@
     "value": "Legal Hold:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 810,
+      "line": 809,
       "column": 25,
-      "index": 22198
+      "index": 22169
     }
   },
   {
@@ -4534,9 +4564,9 @@
     "value": "On",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 812,
+      "line": 811,
       "column": 48,
-      "index": 22298
+      "index": 22269
     }
   },
   {
@@ -4544,9 +4574,9 @@
     "value": "Off",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 812,
+      "line": 811,
       "column": 58,
-      "index": 22308
+      "index": 22279
     }
   },
   {
@@ -4554,9 +4584,9 @@
     "value": "Retention Policy:",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 822,
+      "line": 821,
       "column": 25,
-      "index": 22632
+      "index": 22603
     }
   },
   {
@@ -4564,9 +4594,9 @@
     "value": "None",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 828,
+      "line": 827,
       "column": 60,
-      "index": 22968
+      "index": 22939
     }
   },
   {
@@ -4574,9 +4604,9 @@
     "value": "None",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 834,
+      "line": 833,
       "column": 60,
-      "index": 23173
+      "index": 23144
     }
   },
   {
@@ -4584,9 +4614,9 @@
     "value": "Metadata",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\Objects\\ListObjects\\ObjectDetailPanel.tsx",
     "pos": {
-      "line": 843,
+      "line": 842,
       "column": 19,
-      "index": 23444
+      "index": 23415
     }
   },
   {
@@ -5114,9 +5144,9 @@
     "value": "Upload Files",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\UploadFilesButton.tsx",
     "pos": {
-      "line": 87,
+      "line": 86,
       "column": 22,
-      "index": 2752
+      "index": 2696
     }
   },
   {
@@ -5124,9 +5154,9 @@
     "value": "upload files to this bucket",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\UploadFilesButton.tsx",
     "pos": {
-      "line": 90,
+      "line": 89,
       "column": 34,
-      "index": 2838
+      "index": 2782
     }
   },
   {
@@ -5134,9 +5164,9 @@
     "value": "Upload",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\UploadFilesButton.tsx",
     "pos": {
-      "line": 101,
+      "line": 100,
       "column": 15,
-      "index": 3107
+      "index": 3051
     }
   },
   {
@@ -5144,9 +5174,9 @@
     "value": "Upload File",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\UploadFilesButton.tsx",
     "pos": {
-      "line": 133,
+      "line": 132,
       "column": 25,
-      "index": 3965
+      "index": 3909
     }
   },
   {
@@ -5154,9 +5184,9 @@
     "value": "Upload Folder",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Buckets\\ListBuckets\\UploadFilesButton.tsx",
     "pos": {
-      "line": 144,
+      "line": 143,
       "column": 25,
-      "index": 4342
+      "index": 4286
     }
   },
   {
@@ -5754,9 +5784,9 @@
     "value": "Loading...",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Common\\TableWrapper\\TableWrapper.tsx",
     "pos": {
-      "line": 450,
+      "line": 453,
       "column": 47,
-      "index": 11094
+      "index": 11171
     }
   },
   {
@@ -5764,9 +5794,9 @@
     "value": "Shown Columns",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Common\\TableWrapper\\TableWrapper.tsx",
     "pos": {
-      "line": 539,
+      "line": 542,
       "column": 54,
-      "index": 13367
+      "index": 13444
     }
   },
   {
@@ -5960,8 +5990,8 @@
     }
   },
   {
-    "key": "Configurations",
-    "value": "Configurations",
+    "key": "Settings",
+    "value": "Settings",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Configurations\\ConfigurationPanels\\ConfigurationOptions.tsx",
     "pos": {
       "line": 71,
@@ -5974,9 +6004,9 @@
     "value": "Learn more about Configurations",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Configurations\\ConfigurationPanels\\ConfigurationOptions.tsx",
     "pos": {
-      "line": 116,
+      "line": 119,
       "column": 17,
-      "index": 4056
+      "index": 4093
     }
   },
   {
@@ -5984,9 +6014,9 @@
     "value": "MinIO supports a variety of configurations ranging from encryption, compression, region, notifications, etc.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Configurations\\ConfigurationPanels\\ConfigurationOptions.tsx",
     "pos": {
-      "line": 119,
+      "line": 122,
       "column": 21,
-      "index": 4175
+      "index": 4212
     }
   },
   {
@@ -5994,9 +6024,9 @@
     "value": "You can learn more at our",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Configurations\\ConfigurationPanels\\ConfigurationOptions.tsx",
     "pos": {
-      "line": 123,
+      "line": 126,
       "column": 23,
-      "index": 4335
+      "index": 4372
     }
   },
   {
@@ -6004,9 +6034,9 @@
     "value": "documentation",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Configurations\\ConfigurationPanels\\ConfigurationOptions.tsx",
     "pos": {
-      "line": 128,
+      "line": 131,
       "column": 30,
-      "index": 4572
+      "index": 4609
     }
   },
   {
@@ -6726,7 +6756,7 @@
     "pos": {
       "line": 318,
       "column": 54,
-      "index": 7885
+      "index": 7884
     }
   },
   {
@@ -6736,7 +6766,7 @@
     "pos": {
       "line": 361,
       "column": 59,
-      "index": 9001
+      "index": 9000
     }
   },
   {
@@ -6746,7 +6776,7 @@
     "pos": {
       "line": 384,
       "column": 23,
-      "index": 9611
+      "index": 9610
     }
   },
   {
@@ -6756,7 +6786,7 @@
     "pos": {
       "line": 385,
       "column": 29,
-      "index": 9651
+      "index": 9650
     }
   },
   {
@@ -6766,7 +6796,7 @@
     "pos": {
       "line": 394,
       "column": 23,
-      "index": 9962
+      "index": 9961
     }
   },
   {
@@ -6776,7 +6806,7 @@
     "pos": {
       "line": 395,
       "column": 29,
-      "index": 10006
+      "index": 10005
     }
   },
   {
@@ -6786,7 +6816,7 @@
     "pos": {
       "line": 407,
       "column": 25,
-      "index": 10480
+      "index": 10479
     }
   },
   {
@@ -6796,7 +6826,7 @@
     "pos": {
       "line": 408,
       "column": 31,
-      "index": 10528
+      "index": 10527
     }
   },
   {
@@ -6806,7 +6836,7 @@
     "pos": {
       "line": 418,
       "column": 25,
-      "index": 10914
+      "index": 10913
     }
   },
   {
@@ -6816,7 +6846,7 @@
     "pos": {
       "line": 419,
       "column": 31,
-      "index": 10962
+      "index": 10961
     }
   },
   {
@@ -6826,7 +6856,7 @@
     "pos": {
       "line": 437,
       "column": 23,
-      "index": 11653
+      "index": 11652
     }
   },
   {
@@ -6836,7 +6866,7 @@
     "pos": {
       "line": 452,
       "column": 25,
-      "index": 12152
+      "index": 12151
     }
   },
   {
@@ -6846,7 +6876,7 @@
     "pos": {
       "line": 453,
       "column": 31,
-      "index": 12202
+      "index": 12201
     }
   },
   {
@@ -6856,7 +6886,7 @@
     "pos": {
       "line": 463,
       "column": 25,
-      "index": 12596
+      "index": 12595
     }
   },
   {
@@ -6866,7 +6896,7 @@
     "pos": {
       "line": 464,
       "column": 31,
-      "index": 12645
+      "index": 12644
     }
   },
   {
@@ -6876,7 +6906,7 @@
     "pos": {
       "line": 476,
       "column": 23,
-      "index": 13069
+      "index": 13068
     }
   },
   {
@@ -6886,7 +6916,7 @@
     "pos": {
       "line": 477,
       "column": 29,
-      "index": 13111
+      "index": 13110
     }
   },
   {
@@ -6896,7 +6926,7 @@
     "pos": {
       "line": 487,
       "column": 23,
-      "index": 13459
+      "index": 13458
     }
   },
   {
@@ -6906,7 +6936,7 @@
     "pos": {
       "line": 488,
       "column": 29,
-      "index": 13501
+      "index": 13500
     }
   },
   {
@@ -6916,7 +6946,7 @@
     "pos": {
       "line": 500,
       "column": 23,
-      "index": 13933
+      "index": 13932
     }
   },
   {
@@ -6926,7 +6956,7 @@
     "pos": {
       "line": 509,
       "column": 23,
-      "index": 14262
+      "index": 14261
     }
   },
   {
@@ -6936,7 +6966,7 @@
     "pos": {
       "line": 510,
       "column": 29,
-      "index": 14311
+      "index": 14310
     }
   },
   {
@@ -6946,7 +6976,7 @@
     "pos": {
       "line": 526,
       "column": 21,
-      "index": 14881
+      "index": 14880
     }
   },
   {
@@ -20670,18 +20700,8 @@
     }
   },
   {
-    "key": "zxzzzz",
-    "value": "zxzzzz",
-    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccount.tsx",
-    "pos": {
-      "line": 46,
-      "column": 20,
-      "index": 1539
-    }
-  },
-  {
-    "key": "Learn more about Service Accounts",
-    "value": "Learn more about Service Accounts",
+    "key": "Learn more about Access Keys",
+    "value": "Learn more about Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccountHelpBox.tsx",
     "pos": {
       "line": 83,
@@ -20690,23 +20710,23 @@
     }
   },
   {
-    "key": "Create Service Accounts",
-    "value": "Create Service Accounts",
+    "key": "Create Access Keys",
+    "value": "Create Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccountHelpBox.tsx",
     "pos": {
       "line": 89,
       "column": 26,
-      "index": 2305
+      "index": 2300
     }
   },
   {
-    "key": "Service Accounts inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
-    "value": "Service Accounts inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
+    "key": "Access Keys inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
+    "value": "Access Keys inherit the policies explicitly attached to the parent user, and the policies attached to each group in which the parent user has membership.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccountHelpBox.tsx",
     "pos": {
       "line": 91,
       "column": 44,
-      "index": 2396
+      "index": 2386
     }
   },
   {
@@ -20716,27 +20736,27 @@
     "pos": {
       "line": 100,
       "column": 26,
-      "index": 2730
+      "index": 2715
     }
   },
   {
-    "key": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Service Account, you will be given the opportunity to view and download the account credentials.",
-    "value": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Service Account, you will be given the opportunity to view and download the account credentials.",
+    "key": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Access Key, you will be given the opportunity to view and download the account credentials.",
+    "value": "Randomized access credentials are recommended, and provided by default. You may use your own custom Access Key and Secret Key by replacing the default values. After creation of any Access Key, you will be given the opportunity to view and download the account credentials.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccountHelpBox.tsx",
     "pos": {
       "line": 102,
       "column": 44,
-      "index": 2823
+      "index": 2808
     }
   },
   {
-    "key": "Service Accounts support programmatic access by applications. You cannot use a Service Account to log into the MinIO Console.",
-    "value": "Service Accounts support programmatic access by applications. You cannot use a Service Account to log into the MinIO Console.",
+    "key": "Access Keys support programmatic access by applications. You cannot use a Access Key to log into the MinIO Console.",
+    "value": "Access Keys support programmatic access by applications. You cannot use a Access Key to log into the MinIO Console.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccountHelpBox.tsx",
     "pos": {
       "line": 109,
       "column": 44,
-      "index": 3174
+      "index": 3154
     }
   },
   {
@@ -20746,27 +20766,27 @@
     "pos": {
       "line": 117,
       "column": 26,
-      "index": 3474
+      "index": 3444
     }
   },
   {
-    "key": "You can specify an optional JSON-formatted IAM policy to further restrict Service Account access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
-    "value": "You can specify an optional JSON-formatted IAM policy to further restrict Service Account access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
+    "key": "You can specify an optional JSON-formatted IAM policy to further restrict Access Key access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
+    "value": "You can specify an optional JSON-formatted IAM policy to further restrict Access Key access to a subset of the actions and resources explicitly allowed for the parent user. Additional access beyond that of the parent user cannot be implemented through these policies.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccountHelpBox.tsx",
     "pos": {
       "line": 119,
       "column": 44,
-      "index": 3564
+      "index": 3534
     }
   },
   {
-    "key": "You cannot modify the optional Service Account IAM policy after saving.",
-    "value": "You cannot modify the optional Service Account IAM policy after saving.",
+    "key": "You cannot modify the optional Access Key IAM policy after saving.",
+    "value": "You cannot modify the optional Access Key IAM policy after saving.",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\AddUserServiceAccountHelpBox.tsx",
     "pos": {
       "line": 126,
       "column": 44,
-      "index": 3910
+      "index": 3875
     }
   },
   {
@@ -20776,7 +20796,7 @@
     "pos": {
       "line": 223,
       "column": 41,
-      "index": 7276
+      "index": 7266
     }
   },
   {
@@ -20786,7 +20806,7 @@
     "pos": {
       "line": 226,
       "column": 47,
-      "index": 7444
+      "index": 7434
     }
   },
   {
@@ -20796,7 +20816,7 @@
     "pos": {
       "line": 237,
       "column": 41,
-      "index": 8009
+      "index": 7999
     }
   },
   {
@@ -20806,7 +20826,7 @@
     "pos": {
       "line": 241,
       "column": 47,
-      "index": 8253
+      "index": 8243
     }
   },
   {
@@ -20816,7 +20836,7 @@
     "pos": {
       "line": 281,
       "column": 33,
-      "index": 9921
+      "index": 9911
     }
   },
   {
@@ -20826,7 +20846,7 @@
     "pos": {
       "line": 297,
       "column": 31,
-      "index": 10783
+      "index": 10768
     }
   },
   {
@@ -20836,7 +20856,7 @@
     "pos": {
       "line": 313,
       "column": 27,
-      "index": 11404
+      "index": 11389
     }
   },
   {
@@ -20846,7 +20866,7 @@
     "pos": {
       "line": 319,
       "column": 27,
-      "index": 11606
+      "index": 11591
     }
   },
   {
@@ -20950,8 +20970,8 @@
     }
   },
   {
-    "key": "Delete Service Accounts",
-    "value": "Delete Service Accounts",
+    "key": "Delete Access Keys",
+    "value": "Delete Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\DeleteMultipleServiceAccounts.tsx",
     "pos": {
       "line": 55,
@@ -20966,22 +20986,22 @@
     "pos": {
       "line": 63,
       "column": 24,
-      "index": 2302
+      "index": 2297
     }
   },
   {
-    "key": "service accounts?",
-    "value": "service accounts?",
+    "key": "Access Keys?",
+    "value": "Access Keys?",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\DeleteMultipleServiceAccounts.tsx",
     "pos": {
       "line": 64,
       "column": 32,
-      "index": 2385
+      "index": 2380
     }
   },
   {
-    "key": "Click on a user to view the full listing of asociated Service Accounts. All Service Accounts associated with a user will be deleted along with the user. Are you sure you want to continue?",
-    "value": "Click on a user to view the full listing of asociated Service Accounts. All Service Accounts associated with a user will be deleted along with the user. Are you sure you want to continue?",
+    "key": "Click on a user to view the full listing of asociated Access Keys. All Access Keys associated with a user will be deleted along with the user. Are you sure you want to continue?",
+    "value": "Click on a user to view the full listing of asociated Access Keys. All Access Keys associated with a user will be deleted along with the user. Are you sure you want to continue?",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\DeleteUser.tsx",
     "pos": {
       "line": 142,
@@ -21610,13 +21630,13 @@
     }
   },
   {
-    "key": "Service Accounts",
-    "value": "Service Accounts",
+    "key": "Access Keys",
+    "value": "Access Keys",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\UserServiceAccountsPanel.tsx",
     "pos": {
       "line": 227,
       "column": 21,
-      "index": 7026
+      "index": 7016
     }
   },
   {
@@ -21626,7 +21646,7 @@
     "pos": {
       "line": 229,
       "column": 35,
-      "index": 7166
+      "index": 7151
     }
   },
   {
@@ -21636,27 +21656,27 @@
     "pos": {
       "line": 235,
       "column": 19,
-      "index": 7351
+      "index": 7336
     }
   },
   {
-    "key": "Create service account",
-    "value": "Create service account",
+    "key": "Create Access Key",
+    "value": "Create Access Key",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\UserServiceAccountsPanel.tsx",
     "pos": {
       "line": 252,
       "column": 37,
-      "index": 7937
+      "index": 7922
     }
   },
   {
-    "key": "Create service account",
-    "value": "Create service account",
+    "key": "Create Access Key",
+    "value": "Create Access Key",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\Users\\UserServiceAccountsPanel.tsx",
     "pos": {
       "line": 255,
       "column": 21,
-      "index": 8055
+      "index": 8035
     }
   },
   {
@@ -21754,9 +21774,29 @@
     "value": "Buckets",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 30,
+      "line": 31,
       "column": 10,
-      "index": 1993
+      "index": 2034
+    }
+  },
+  {
+    "key": "Access Keys",
+    "value": "Access Keys",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
+    "pos": {
+      "line": 43,
+      "column": 10,
+      "index": 2299
+    }
+  },
+  {
+    "key": "Documentation",
+    "value": "Documentation",
+    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
+    "pos": {
+      "line": 51,
+      "column": 10,
+      "index": 2479
     }
   },
   {
@@ -21764,9 +21804,9 @@
     "value": "Identity",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 38,
+      "line": 60,
       "column": 10,
-      "index": 2162
+      "index": 2840
     }
   },
   {
@@ -21774,9 +21814,9 @@
     "value": "Users",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 46,
+      "line": 68,
       "column": 12,
-      "index": 2493
+      "index": 3222
     }
   },
   {
@@ -21784,19 +21824,9 @@
     "value": "Groups",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 53,
+      "line": 75,
       "column": 12,
-      "index": 2657
-    }
-  },
-  {
-    "key": "Service Accounts",
-    "value": "Service Accounts",
-    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
-    "pos": {
-      "line": 60,
-      "column": 12,
-      "index": 2833
+      "index": 3386
     }
   },
   {
@@ -21804,9 +21834,9 @@
     "value": "Policies",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 64,
+      "line": 79,
       "column": 12,
-      "index": 2932
+      "index": 3478
     }
   },
   {
@@ -21814,9 +21844,9 @@
     "value": "Monitoring",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 71,
+      "line": 87,
       "column": 10,
-      "index": 3076
+      "index": 3650
     }
   },
   {
@@ -21824,9 +21854,9 @@
     "value": "Metrics",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 75,
+      "line": 91,
       "column": 12,
-      "index": 3169
+      "index": 3743
     }
   },
   {
@@ -21834,9 +21864,9 @@
     "value": "Logs",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 81,
+      "line": 97,
       "column": 12,
-      "index": 3317
+      "index": 3891
     }
   },
   {
@@ -21844,9 +21874,9 @@
     "value": "Audit",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 87,
+      "line": 103,
       "column": 12,
-      "index": 3457
+      "index": 4031
     }
   },
   {
@@ -21854,9 +21884,9 @@
     "value": "Trace",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 93,
+      "line": 109,
       "column": 12,
-      "index": 3609
+      "index": 4183
     }
   },
   {
@@ -21864,9 +21894,9 @@
     "value": "Watch",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 99,
+      "line": 115,
       "column": 12,
-      "index": 3753
+      "index": 4327
     }
   },
   {
@@ -21874,9 +21904,9 @@
     "value": "Drives",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 105,
+      "line": 121,
       "column": 12,
-      "index": 3886
+      "index": 4460
     }
   },
   {
@@ -21884,9 +21914,9 @@
     "value": "Notifications",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 114,
+      "line": 131,
       "column": 10,
-      "index": 4102
+      "index": 4704
     }
   },
   {
@@ -21894,9 +21924,9 @@
     "value": "Tiers",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 120,
+      "line": 138,
       "column": 10,
-      "index": 4227
+      "index": 4857
     }
   },
   {
@@ -21904,19 +21934,19 @@
     "value": "Site Replication",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 126,
+      "line": 145,
       "column": 10,
-      "index": 4353
+      "index": 5011
     }
   },
   {
-    "key": "Configurations",
-    "value": "Configurations",
+    "key": "Settings",
+    "value": "Settings",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 132,
+      "line": 152,
       "column": 10,
-      "index": 4494
+      "index": 5180
     }
   },
   {
@@ -21924,9 +21954,9 @@
     "value": "License",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 138,
+      "line": 159,
       "column": 10,
-      "index": 4632
+      "index": 5339
     }
   },
   {
@@ -21934,9 +21964,9 @@
     "value": "Support",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 144,
+      "line": 166,
       "column": 10,
-      "index": 4753
+      "index": 5487
     }
   },
   {
@@ -21944,9 +21974,9 @@
     "value": "Health",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 148,
+      "line": 170,
       "column": 12,
-      "index": 4842
+      "index": 5576
     }
   },
   {
@@ -21954,9 +21984,9 @@
     "value": "Performance",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 154,
+      "line": 176,
       "column": 12,
-      "index": 4993
+      "index": 5727
     }
   },
   {
@@ -21964,9 +21994,9 @@
     "value": "Profile",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 160,
+      "line": 182,
       "column": 12,
-      "index": 5152
+      "index": 5886
     }
   },
   {
@@ -21974,19 +22004,9 @@
     "value": "Inspect",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 174,
+      "line": 196,
       "column": 12,
-      "index": 5463
-    }
-  },
-  {
-    "key": "Documentation",
-    "value": "Documentation",
-    "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
-    "pos": {
-      "line": 184,
-      "column": 10,
-      "index": 5695
+      "index": 6197
     }
   },
   {
@@ -21994,9 +22014,9 @@
     "value": "Tenants",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 198,
+      "line": 209,
       "column": 10,
-      "index": 6176
+      "index": 6502
     }
   },
   {
@@ -22004,9 +22024,9 @@
     "value": "License",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 207,
+      "line": 218,
       "column": 10,
-      "index": 6371
+      "index": 6697
     }
   },
   {
@@ -22014,9 +22034,9 @@
     "value": "Register",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 216,
+      "line": 227,
       "column": 10,
-      "index": 6569
+      "index": 6895
     }
   },
   {
@@ -22024,9 +22044,9 @@
     "value": "Documentation",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 225,
+      "line": 236,
       "column": 10,
-      "index": 6775
+      "index": 7101
     }
   },
   {
@@ -22034,9 +22054,9 @@
     "value": "PVCs",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 239,
+      "line": 250,
       "column": 10,
-      "index": 7267
+      "index": 7593
     }
   },
   {
@@ -22044,9 +22064,9 @@
     "value": "Drives",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 243,
+      "line": 254,
       "column": 10,
-      "index": 7342
+      "index": 7668
     }
   },
   {
@@ -22054,9 +22074,9 @@
     "value": "Volumes",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 251,
+      "line": 262,
       "column": 10,
-      "index": 7516
+      "index": 7842
     }
   },
   {
@@ -22064,9 +22084,9 @@
     "value": "License",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 264,
+      "line": 275,
       "column": 10,
-      "index": 7801
+      "index": 8127
     }
   },
   {
@@ -22074,9 +22094,9 @@
     "value": "Documentation",
     "filePath": "E:\\main\\minio-console-i18n\\E:\\main\\minio-console\\portal-ui\\src\\screens\\Console\\valid-routes.ts",
     "pos": {
-      "line": 273,
+      "line": 284,
       "column": 10,
-      "index": 8001
+      "index": 8327
     }
   },
   {

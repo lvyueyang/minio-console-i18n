@@ -3,7 +3,7 @@ import axios from 'axios'
 import fs from 'fs'
 
 const { BAIDU_APPID, BAIDU_KEY } = JSON.parse(
-  fs.readFileSync('../.env.local.json').toString('utf-8')
+  fs.readFileSync('./.env.local.json').toString('utf-8')
 )
 
 const appid = BAIDU_APPID
