@@ -87,7 +87,7 @@ const files = [
         arrayObjKeyTransform(p, [
           {
             objName: 'consoleMenus',
-            keys: ['name', 'children'],
+            keys: ['name', 'children', 'group'],
           },
           {
             objName: 'operatorMenus',
