@@ -9,6 +9,6 @@ export const uiSrcDir = path
   .replace(/\\/g, '/')
 
 let targetPath = '**/*.tsx'
-// targetPath = 'common/Copyright.tsx'
+// targetPath = 'screens/Console/Users/DeleteUser.tsx'
 
 export const target = `${uiSrcDir}${targetPath}`

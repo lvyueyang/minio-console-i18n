@@ -52,9 +52,24 @@ export const skipMixin = {
     }
   },
   ConditionalExpression(p) {
-    if (t.isVariableDeclarator(p.parent)) {
-      p.skip()
+    if (
+      t.isJSXElement(p.node.consequent) ||
+      t.isJSXElement(p.node.alternate) ||
+      !t.isVariableDeclarator(p.parent)
+    ) {
+      return
     }
+    // 判断是否在 react 组件中
+    let isJsxChildren = false
+    p.findParent((parentPath) => {
+      if (t.isJSXElement(parentPath.node)) {
+        isJsxChildren = true
+      }
+    })
+    if (isJsxChildren) {
+      return
+    }
+    p.skip()
   },
   BinaryExpression(p) {
     p.skip()

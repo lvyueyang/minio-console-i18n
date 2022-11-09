@@ -1,4 +1,3 @@
-import babelParser from '@babel/parser'
 import traverse from '@babel/traverse'
 import generator from '@babel/generator'
 import t from '@babel/types'
@@ -98,6 +97,14 @@ const ignoreCompAttr = [
   {
     name: 'SiteTypeHeader',
     attrs: ['title'],
+  },
+  {
+    name: 'WarningMessage',
+    attrs: ['title'],
+  },
+  {
+    name: 'ConfirmDialog',
+    attrs: ['confirmText', 'cancelText'],
   },
 ]
 

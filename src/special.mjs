@@ -120,7 +120,7 @@ files.forEach((item) => {
         console.log('已修改 (Modified)')
         fs.writeFileSync(filePath, output.code)
       } else {
-        console.log('无需修改 (Unmodified)')
+        // console.log('无需修改 (Unmodified)')
       }
       if (templateString.length) {
         templateFiles.push({

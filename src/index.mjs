@@ -14,18 +14,20 @@ function main() {
       if (ignorePath.map((f) => filePath.includes(f)).filter((i) => i).length) {
         return
       }
-      console.log('File: ', filePath)
+
       const code = fs.readFileSync(filePath).toString('utf-8')
       const { output, isTransform, templateString } = transformFile(
         code,
         filePath
       )
       if (isTransform) {
+        console.log('File: ', filePath)
         editTotal += 1
         console.log('已修改 (Modified)')
         fs.writeFileSync(filePath, output.code)
       } else {
-        console.log('无需修改 (Unmodified)')
+        // console.log('File: ', filePath)
+        // console.log('无需修改 (Unmodified)')
       }
       if (templateString.length) {
         templateFiles.push({
