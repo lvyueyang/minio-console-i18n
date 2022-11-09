@@ -91,6 +91,10 @@ const ignoreCompAttr = [
     name: 'ConfirmDialog',
     attrs: ['title', 'confirmationContent'],
   },
+  {
+    name: 'ListItemText',
+    attrs: ['primary'],
+  },
 ]
 
 // 对 jsx 属性中的规则跳过判断
