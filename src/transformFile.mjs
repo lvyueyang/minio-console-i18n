@@ -95,6 +95,10 @@ const ignoreCompAttr = [
     name: 'ListItemText',
     attrs: ['primary'],
   },
+  {
+    name: 'SiteTypeHeader',
+    attrs: ['title'],
+  },
 ]
 
 // 对 jsx 属性中的规则跳过判断
