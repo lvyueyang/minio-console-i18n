@@ -67,7 +67,12 @@ export const unshiftI18nModule = (ast) => {
     [t.importSpecifier(t.identifier('t'), t.identifier('t'))],
     t.StringLiteral('i18next')
   )
-  i18nModule.leadingComments = ast.program.body[0].leadingComments
-  delete ast.program.body[0].leadingComments
-  ast.program.body.unshift(i18nModule)
+  const isIncludeImportModule = ast.program.body.find((n) => {
+    return t.isImportDeclaration(n) && n.source.value === 'i18next'
+  })
+  if (!isIncludeImportModule) {
+    i18nModule.leadingComments = ast.program.body[0].leadingComments
+    delete ast.program.body[0].leadingComments
+    ast.program.body.unshift(i18nModule)
+  }
 }

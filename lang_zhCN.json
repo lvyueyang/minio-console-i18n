@@ -1353,5 +1353,8 @@
   "Settings": "设置",
   "Delete Access Keys": "删除访问密钥",
   "Access Keys?": "访问密钥？",
-  "Click on a user to view the full listing of asociated Access Keys. All Access Keys associated with a user will be deleted along with the user. Are you sure you want to continue?": "单击用户以查看关联访问密钥的完整列表。与用户关联的所有访问密钥将与用户一起删除。确实要继续吗？"
+  "Click on a user to view the full listing of asociated Access Keys. All Access Keys associated with a user will be deleted along with the user. Are you sure you want to continue?": "单击用户以查看关联访问密钥的完整列表。与用户关联的所有访问密钥将与用户一起删除。确实要继续吗？",
+  "Sign Out": "退出",
+  "Administrator": "管理员",
+  "Subscription": "订阅"
 }
