@@ -383,7 +383,9 @@ export function transformFile(code) {
   if (isTransform) {
     unshiftI18nModule(ast)
   }
-  const output = generator.default(ast, { retainLines: true })
+  const output = generator.default(ast, {
+    retainLines: true,
+  })
   return { output, isTransform, templateString }
 }
 

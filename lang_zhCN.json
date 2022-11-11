@@ -1414,5 +1414,8 @@
   "Time": "时间",
   "Location": "地方",
   "Load Time": "加载时间",
-  "# Associated Access Keys": "#关联的访问密钥"
+  "# Associated Access Keys": "#关联的访问密钥",
+  "Backend type": "后端类型",
+  "Standard storage class parity": "标准存储类奇偶校验",
+  "Reduced redundancy storage class parity": "减少冗余存储类奇偶校验"
 }
