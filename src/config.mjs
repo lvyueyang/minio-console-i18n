@@ -1,3 +1,6 @@
+/**
+ * 这里聚合了脚本执行时的一些配置文件
+ */
 import path from 'path';
 import { fileURLToPath } from 'url';
 

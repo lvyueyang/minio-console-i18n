@@ -1,3 +1,7 @@
+/**
+ * 在国际化添加完成后，使用这个脚本进行 key 值提取
+ * t('key') 自动提取出 key，生成 en.json
+ */
 import glob from 'glob';
 import fs from 'fs';
 import path from 'path';

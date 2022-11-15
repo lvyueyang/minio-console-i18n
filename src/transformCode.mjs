@@ -1,3 +1,6 @@
+/**
+ * 核心脚本，使用babel对code进行添加和提取
+ */
 import traverse from '@babel/traverse';
 import generator from '@babel/generator';
 import t from '@babel/types';

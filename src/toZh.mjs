@@ -1,4 +1,6 @@
-/* eslint-disable no-loop-func */
+/**
+ * 对 en.json 中的值进行翻译
+ */
 import fs from 'fs';
 import path from 'path';
 import { cnFileJson, enFileJson, __dirname } from './config.mjs';
