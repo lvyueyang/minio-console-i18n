@@ -16,29 +16,35 @@
 使用前
 
 ```jsx
-import React from 'react'
+import React from 'react';
 
 export default function Login() {
   return (
-    <Button label='login label' type='submit'>
+    <Button
+      label='login label'
+      type='submit'
+    >
       login
     </Button>
-  )
+  );
 }
 ```
 
 使用后
 
 ```jsx
-import { t } from 'i18next'
-import React from 'react'
+import { t } from 'i18next';
+import React from 'react';
 
 export default function Login() {
   return (
-    <Button label={t('login label')} type='submit'>
+    <Button
+      label={t('login label')}
+      type='submit'
+    >
       {t('login')}
     </Button>
-  )
+  );
 }
 ```
 
@@ -55,7 +61,7 @@ yarn add i18next
 2. 修改 `/portal-ui/src/index.tsx`文件 初始化 `i18next`
 
 ```tsx
-import i18next from 'i18next'
+import i18next from 'i18next';
 
 i18next
   .init({
@@ -71,9 +77,7 @@ i18next
     },
   })
   .then(() => {
-    const root = ReactDOM.createRoot(
-      document.getElementById('root') as HTMLElement
-    )
+    const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
     root.render(
       <React.StrictMode>
         <Provider store={store}>
@@ -82,8 +86,8 @@ i18next
           </StyleHandler>
         </Provider>
       </React.StrictMode>
-    )
-  })
+    );
+  });
 ```
 
 2. 将上面的修改部分提交 commit
@@ -114,7 +118,7 @@ yarn
 // src/config.mjs
 export const uiSrcDir = path
   .join(__dirname, '../../minio-console/portal-ui/src/')
-  .replace(/\\/g, '/')
+  .replace(/\\/g, '/');
 ```
 
 ### 6. 执行脚本，对 portal-ui/src 下的文件添加国际化代码
@@ -132,15 +136,15 @@ npm run all
 
 ### 7. 引入国际化文件
 
-脚本执行完成后，会在项目根目录生成 `lang_log.json` 文件，将此文件拷贝至 `portal-ui/src` 下，后续会根据此文件进行语言翻译即可
+脚本执行完成后，会生成 `dist/i18n/log.json` 文件，将此文件拷贝至 `portal-ui/src` 下，后续会根据此文件进行语言翻译即可
 
 引入后修改步骤 2 中的代码 `/portal-ui/src/index.tsx`
 
 > 如果需要翻译为其他语言，这一步是必须做的
 
 ```tsx
-import i18next from 'i18next'
-import en from './lang_en.json'
+import i18next from 'i18next';
+import en from './lang_en.json';
 
 i18next
   .init({
@@ -156,9 +160,7 @@ i18next
     },
   })
   .then(() => {
-    const root = ReactDOM.createRoot(
-      document.getElementById('root') as HTMLElement
-    )
+    const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
     root.render(
       <React.StrictMode>
         <Provider store={store}>
@@ -167,8 +169,8 @@ i18next
           </StyleHandler>
         </Provider>
       </React.StrictMode>
-    )
-  })
+    );
+  });
 ```
 
 ## 脚本命令说明
@@ -185,15 +187,19 @@ i18next
 
 ### `npm run ext`
 
-遍历 `portal-ui/src`下的所有文件，提取 t("key") 中的 key，并生成`lang_log.json` 和 `lang_en.json` 文件
+遍历 `portal-ui/src`下的所有文件，提取 t("key") 中的 key，并生成`dist/i18n/log.json` 和 `dist/i18n/en.json` 文件
 
-`lang_log.json` 文件是执行时的日志文件
+`log.json` 文件是执行时的日志文件
 
-`lang_en.json` 文件是根据 `lang_log.json` 生成的国际化资源文件
+`en.json` 文件是根据 `log.json` 生成的国际化资源文件
 
-### `npm run all`
+### `npm run cwl`
 
-`npm start` `npm run sp` `npm run ext` 的集合，第一次使用直接执行这个命令即可
+对代码进行 `transformCode` 后会添加/减少一些多余的换行，在 `git diff` 时影响 `Review`，很不美观
+此脚本会对 diff 的文件进行对比，移除或添加那些换行符
+目前需要在 transform 前先拷贝文件到 src/before 中
+
+> 具体的使用和配置方式，请查看源码 一共 50 行
 
 ### `npm run zh`
 
