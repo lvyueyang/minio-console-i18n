@@ -1,6 +1,7 @@
 /**
  * 这里聚合了脚本执行时的一些配置文件
  */
+import glob from 'glob';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -15,6 +16,12 @@ let targetPath = '**/*.tsx';
 // targetPath = 'screens/Console/Users/DeleteUser.tsx'
 
 export const target = `${uiSrcDir}${targetPath}`;
+export const ignoreTargetList = [`${uiSrcDir}${'screens/Console/Common/IconsScreen.tsx'}`];
+const ignoreFiles = [];
+ignoreTargetList.forEach((target) => {
+  ignoreFiles.push(...glob.sync(target));
+});
+export { ignoreFiles };
 
 /** 添加国际化函数后提取出的 en 文件 */
 export const enFileJson = path.join(__dirname, '../dist/i18n/en.json');

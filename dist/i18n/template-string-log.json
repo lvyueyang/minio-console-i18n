@@ -25,7 +25,47 @@
         "pos": {
           "line": 141,
           "column": 34,
-          "index": 4837
+          "index": 4648
+        }
+      },
+      {
+        "pos": {
+          "line": 246,
+          "column": 21,
+          "index": 7610
+        }
+      },
+      {
+        "pos": {
+          "line": 257,
+          "column": 19,
+          "index": 7973
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Account/AddServiceAccountHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 89,
+          "column": 23,
+          "index": 2293
+        }
+      },
+      {
+        "pos": {
+          "line": 100,
+          "column": 23,
+          "index": 2708
+        }
+      },
+      {
+        "pos": {
+          "line": 117,
+          "column": 23,
+          "index": 3437
         }
       }
     ]
@@ -37,7 +77,7 @@
         "pos": {
           "line": 140,
           "column": 13,
-          "index": 5114
+          "index": 4913
         }
       }
     ]
@@ -48,8 +88,8 @@
       {
         "pos": {
           "line": 122,
-          "column": 13,
-          "index": 3953
+          "column": 9,
+          "index": 3768
         }
       }
     ]
@@ -60,8 +100,27 @@
       {
         "pos": {
           "line": 69,
-          "column": 6,
-          "index": 2394
+          "column": 4,
+          "index": 2331
+        }
+      },
+      {
+        "pos": {
+          "line": 75,
+          "column": 11,
+          "index": 2451
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Account/ServiceAccountPolicy.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 132,
+          "column": 19,
+          "index": 3807
         }
       }
     ]
@@ -73,28 +132,40 @@
         "pos": {
           "line": 47,
           "column": 8,
-          "index": 1948
+          "index": 1918
         }
       },
       {
         "pos": {
           "line": 48,
           "column": 21,
-          "index": 1993
+          "index": 1962
         }
       },
       {
         "pos": {
           "line": 102,
-          "column": 17,
-          "index": 3525
+          "column": 15,
+          "index": 3385
         }
       },
       {
         "pos": {
           "line": 112,
-          "column": 17,
-          "index": 3765
+          "column": 15,
+          "index": 3597
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/BucketDetails/AddBucketTagModal.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 94,
+          "column": 11,
+          "index": 2832
         }
       }
     ]
@@ -105,8 +176,8 @@
       {
         "pos": {
           "line": 132,
-          "column": 38,
-          "index": 4765
+          "column": 36,
+          "index": 4566
         }
       }
     ]
@@ -118,7 +189,7 @@
         "pos": {
           "line": 138,
           "column": 19,
-          "index": 5018
+          "index": 4828
         }
       }
     ]
@@ -130,14 +201,14 @@
         "pos": {
           "line": 89,
           "column": 13,
-          "index": 3382
+          "index": 3283
         }
       },
       {
         "pos": {
           "line": 134,
-          "column": 25,
-          "index": 4953
+          "column": 19,
+          "index": 4691
         }
       }
     ]
@@ -149,28 +220,28 @@
         "pos": {
           "line": 175,
           "column": 22,
-          "index": 5561
+          "index": 5290
         }
       },
       {
         "pos": {
           "line": 189,
           "column": 13,
-          "index": 5984
+          "index": 5698
         }
       },
       {
         "pos": {
           "line": 191,
           "column": 13,
-          "index": 6047
+          "index": 5759
         }
       },
       {
         "pos": {
           "line": 204,
           "column": 13,
-          "index": 6311
+          "index": 6010
         }
       }
     ]
@@ -182,7 +253,26 @@
         "pos": {
           "line": 57,
           "column": 30,
-          "index": 2070
+          "index": 2032
+        }
+      },
+      {
+        "pos": {
+          "line": 64,
+          "column": 11,
+          "index": 2153
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/BucketDetails/DeleteBucketLifecycleRule.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 74,
+          "column": 11,
+          "index": 2419
         }
       }
     ]
@@ -194,7 +284,14 @@
         "pos": {
           "line": 71,
           "column": 27,
-          "index": 2434
+          "index": 2382
+        }
+      },
+      {
+        "pos": {
+          "line": 78,
+          "column": 11,
+          "index": 2501
         }
       }
     ]
@@ -205,8 +302,15 @@
       {
         "pos": {
           "line": 66,
-          "column": 6,
-          "index": 2283
+          "column": 4,
+          "index": 2239
+        }
+      },
+      {
+        "pos": {
+          "line": 77,
+          "column": 11,
+          "index": 2405
         }
       }
     ]
@@ -218,28 +322,28 @@
         "pos": {
           "line": 67,
           "column": 14,
-          "index": 2483
+          "index": 2442
         }
       },
       {
         "pos": {
           "line": 71,
           "column": 14,
-          "index": 2623
+          "index": 2578
         }
       },
       {
         "pos": {
           "line": 73,
           "column": 14,
-          "index": 2720
+          "index": 2673
         }
       },
       {
         "pos": {
           "line": 78,
           "column": 12,
-          "index": 2937
+          "index": 2885
         }
       }
     ]
@@ -250,15 +354,15 @@
       {
         "pos": {
           "line": 91,
-          "column": 15,
-          "index": 2792
+          "column": 13,
+          "index": 2689
         }
       },
       {
         "pos": {
           "line": 91,
-          "column": 39,
-          "index": 2816
+          "column": 37,
+          "index": 2713
         }
       }
     ]
@@ -269,15 +373,39 @@
       {
         "pos": {
           "line": 126,
-          "column": 38,
-          "index": 4716
+          "column": 36,
+          "index": 4527
         }
       },
       {
         "pos": {
           "line": 244,
-          "column": 17,
-          "index": 8090
+          "column": 15,
+          "index": 7681
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/BucketDetails/EnableVersioningModal.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 66,
+          "column": 11,
+          "index": 2205
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/BucketDetails/SetAccessPolicy.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 149,
+          "column": 21,
+          "index": 4724
         }
       }
     ]
@@ -289,7 +417,7 @@
         "pos": {
           "line": 55,
           "column": 27,
-          "index": 1688
+          "index": 1635
         }
       }
     ]
@@ -301,21 +429,21 @@
         "pos": {
           "line": 87,
           "column": 25,
-          "index": 3170
+          "index": 3108
         }
       },
       {
         "pos": {
           "line": 111,
-          "column": 38,
-          "index": 3806
+          "column": 36,
+          "index": 3712
         }
       },
       {
         "pos": {
           "line": 130,
-          "column": 31,
-          "index": 4542
+          "column": 27,
+          "index": 4366
         }
       }
     ]
@@ -327,7 +455,7 @@
         "pos": {
           "line": 228,
           "column": 19,
-          "index": 7947
+          "index": 7488
         }
       }
     ]
@@ -339,7 +467,7 @@
         "pos": {
           "line": 185,
           "column": 26,
-          "index": 4928
+          "index": 4491
         }
       }
     ]
@@ -350,8 +478,8 @@
       {
         "pos": {
           "line": 114,
-          "column": 38,
-          "index": 4758
+          "column": 36,
+          "index": 4600
         }
       }
     ]
@@ -363,7 +491,7 @@
         "pos": {
           "line": 132,
           "column": 19,
-          "index": 5128
+          "index": 4958
         }
       }
     ]
@@ -375,7 +503,14 @@
         "pos": {
           "line": 52,
           "column": 30,
-          "index": 1932
+          "index": 1906
+        }
+      },
+      {
+        "pos": {
+          "line": 59,
+          "column": 11,
+          "index": 2027
         }
       }
     ]
@@ -387,28 +522,28 @@
         "pos": {
           "line": 72,
           "column": 22,
-          "index": 2528
+          "index": 2470
         }
       },
       {
         "pos": {
           "line": 88,
           "column": 59,
-          "index": 2925
+          "index": 2849
         }
       },
       {
         "pos": {
           "line": 109,
           "column": 20,
-          "index": 3469
+          "index": 3349
         }
       },
       {
         "pos": {
           "line": 110,
-          "column": 6,
-          "index": 3526
+          "column": 4,
+          "index": 3403
         }
       }
     ]
@@ -419,8 +554,27 @@
       {
         "pos": {
           "line": 79,
-          "column": 8,
-          "index": 2703
+          "column": 6,
+          "index": 2644
+        }
+      },
+      {
+        "pos": {
+          "line": 87,
+          "column": 11,
+          "index": 2796
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/ListBuckets/Objects/ListObjects/DeleteNonCurrent.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 79,
+          "column": 11,
+          "index": 2619
         }
       }
     ]
@@ -431,22 +585,29 @@
       {
         "pos": {
           "line": 66,
-          "column": 6,
-          "index": 2520
+          "column": 4,
+          "index": 2476
         }
       },
       {
         "pos": {
           "line": 68,
-          "column": 12,
-          "index": 2633
+          "column": 4,
+          "index": 2577
         }
       },
       {
         "pos": {
           "line": 69,
-          "column": 12,
-          "index": 2679
+          "column": 4,
+          "index": 2616
+        }
+      },
+      {
+        "pos": {
+          "line": 76,
+          "column": 11,
+          "index": 2730
         }
       }
     ]
@@ -458,7 +619,14 @@
         "pos": {
           "line": 83,
           "column": 28,
-          "index": 2959
+          "index": 2875
+        }
+      },
+      {
+        "pos": {
+          "line": 132,
+          "column": 13,
+          "index": 4042
         }
       }
     ]
@@ -469,190 +637,190 @@
       {
         "pos": {
           "line": 545,
-          "column": 10,
-          "index": 16288
+          "column": 6,
+          "index": 15253
         }
       },
       {
         "pos": {
           "line": 545,
-          "column": 29,
-          "index": 16307
+          "column": 25,
+          "index": 15272
         }
       },
       {
         "pos": {
           "line": 550,
-          "column": 10,
-          "index": 16430
+          "column": 6,
+          "index": 15370
         }
       },
       {
         "pos": {
           "line": 578,
           "column": 22,
-          "index": 17273
+          "index": 16167
         }
       },
       {
         "pos": {
           "line": 590,
           "column": 22,
-          "index": 17632
+          "index": 16514
         }
       },
       {
         "pos": {
           "line": 597,
           "column": 20,
-          "index": 17959
+          "index": 16834
         }
       },
       {
         "pos": {
           "line": 629,
-          "column": 29,
-          "index": 19151
+          "column": 27,
+          "index": 17924
         }
       },
       {
         "pos": {
           "line": 630,
-          "column": 32,
-          "index": 19225
+          "column": 28,
+          "index": 17993
         }
       },
       {
         "pos": {
           "line": 644,
-          "column": 27,
-          "index": 19711
+          "column": 25,
+          "index": 18439
         }
       },
       {
         "pos": {
           "line": 645,
-          "column": 31,
-          "index": 19799
+          "column": 27,
+          "index": 18522
         }
       },
       {
         "pos": {
           "line": 684,
-          "column": 41,
-          "index": 21873
+          "column": 37,
+          "index": 20384
         }
       },
       {
         "pos": {
           "line": 771,
           "column": 34,
-          "index": 24530
+          "index": 22687
         }
       },
       {
         "pos": {
           "line": 799,
-          "column": 6,
-          "index": 25202
+          "column": 4,
+          "index": 23320
         }
       },
       {
         "pos": {
           "line": 850,
           "column": 20,
-          "index": 26424
+          "index": 24391
         }
       },
       {
         "pos": {
           "line": 851,
-          "column": 18,
-          "index": 26476
+          "column": 16,
+          "index": 24440
         }
       },
       {
         "pos": {
           "line": 859,
-          "column": 8,
-          "index": 26687
+          "column": 4,
+          "index": 24637
         }
       },
       {
         "pos": {
           "line": 859,
-          "column": 23,
-          "index": 26702
+          "column": 19,
+          "index": 24652
         }
       },
       {
         "pos": {
           "line": 879,
-          "column": 28,
-          "index": 27270
+          "column": 26,
+          "index": 25153
         }
       },
       {
         "pos": {
           "line": 909,
-          "column": 16,
-          "index": 28368
+          "column": 12,
+          "index": 26169
         }
       },
       {
         "pos": {
           "line": 925,
-          "column": 26,
-          "index": 28921
+          "column": 24,
+          "index": 26614
         }
       },
       {
         "pos": {
           "line": 929,
-          "column": 14,
-          "index": 29038
+          "column": 10,
+          "index": 26719
         }
       },
       {
         "pos": {
           "line": 936,
-          "column": 31,
-          "index": 29311
+          "column": 29,
+          "index": 26965
         }
       },
       {
         "pos": {
           "line": 1029,
-          "column": 26,
-          "index": 32427
+          "column": 22,
+          "index": 29717
         }
       },
       {
         "pos": {
           "line": 1061,
-          "column": 29,
-          "index": 33640
+          "column": 27,
+          "index": 30801
         }
       },
       {
         "pos": {
           "line": 1264,
           "column": 18,
-          "index": 39495
+          "index": 36316
         }
       },
       {
         "pos": {
           "line": 1267,
           "column": 15,
-          "index": 39549
+          "index": 36367
         }
       },
       {
         "pos": {
           "line": 1597,
-          "column": 40,
-          "index": 51622
+          "column": 36,
+          "index": 46764
         }
       }
     ]
@@ -663,29 +831,29 @@
       {
         "pos": {
           "line": 297,
-          "column": 6,
-          "index": 9165
+          "column": 4,
+          "index": 8592
         }
       },
       {
         "pos": {
           "line": 602,
           "column": 38,
-          "index": 17580
+          "index": 15880
         }
       },
       {
         "pos": {
           "line": 741,
-          "column": 25,
-          "index": 22018
+          "column": 21,
+          "index": 19655
         }
       },
       {
         "pos": {
           "line": 797,
           "column": 48,
-          "index": 24152
+          "index": 21780
         }
       }
     ]
@@ -696,8 +864,8 @@
       {
         "pos": {
           "line": 87,
-          "column": 13,
-          "index": 2878
+          "column": 11,
+          "index": 2777
         }
       }
     ]
@@ -715,13 +883,37 @@
     ]
   },
   {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/ListBuckets/Objects/ObjectDetails/DeleteSelectedVersions.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 93,
+          "column": 11,
+          "index": 2812
+        }
+      }
+    ]
+  },
+  {
     "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/ListBuckets/Objects/ObjectDetails/ObjectMetaData.tsx",
     "pos": [
       {
         "pos": {
           "line": 69,
-          "column": 6,
-          "index": 1809
+          "column": 4,
+          "index": 1713
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Buckets/ListBuckets/Objects/ObjectDetails/RestoreFileVersion.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 80,
+          "column": 11,
+          "index": 2562
         }
       }
     ]
@@ -733,7 +925,7 @@
         "pos": {
           "line": 106,
           "column": 18,
-          "index": 3842
+          "index": 3716
         }
       }
     ]
@@ -745,7 +937,7 @@
         "pos": {
           "line": 166,
           "column": 30,
-          "index": 5447
+          "index": 5152
         }
       }
     ]
@@ -755,16 +947,23 @@
     "pos": [
       {
         "pos": {
+          "line": 198,
+          "column": 6,
+          "index": 5648
+        }
+      },
+      {
+        "pos": {
           "line": 265,
-          "column": 51,
-          "index": 8226
+          "column": 49,
+          "index": 7604
         }
       },
       {
         "pos": {
           "line": 284,
-          "column": 37,
-          "index": 9095
+          "column": 33,
+          "index": 8391
         }
       }
     ]
@@ -775,8 +974,8 @@
       {
         "pos": {
           "line": 256,
-          "column": 6,
-          "index": 8072
+          "column": 4,
+          "index": 7541
         }
       }
     ]
@@ -788,14 +987,14 @@
         "pos": {
           "line": 80,
           "column": 11,
-          "index": 2296
+          "index": 2173
         }
       },
       {
         "pos": {
           "line": 82,
           "column": 25,
-          "index": 2472
+          "index": 2347
         }
       }
     ]
@@ -825,13 +1024,25 @@
     ]
   },
   {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Common/ComponentsScreen.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 77,
+          "column": 19,
+          "index": 2551
+        }
+      }
+    ]
+  },
+  {
     "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Common/DistributedOnly/DistributedOnly.tsx",
     "pos": [
       {
         "pos": {
           "line": 31,
-          "column": 17,
-          "index": 1162
+          "column": 15,
+          "index": 1160
         }
       }
     ]
@@ -842,8 +1053,8 @@
       {
         "pos": {
           "line": 126,
-          "column": 15,
-          "index": 3752
+          "column": 13,
+          "index": 3475
         }
       }
     ]
@@ -904,8 +1115,8 @@
       {
         "pos": {
           "line": 41,
-          "column": 17,
-          "index": 1323
+          "column": 15,
+          "index": 1304
         }
       }
     ]
@@ -917,7 +1128,7 @@
         "pos": {
           "line": 161,
           "column": 17,
-          "index": 4128
+          "index": 3729
         }
       }
     ]
@@ -929,28 +1140,28 @@
         "pos": {
           "line": 38,
           "column": 3,
-          "index": 1301
+          "index": 1287
         }
       },
       {
         "pos": {
           "line": 41,
           "column": 3,
-          "index": 1390
+          "index": 1372
         }
       },
       {
         "pos": {
           "line": 48,
           "column": 3,
-          "index": 1573
+          "index": 1546
         }
       },
       {
         "pos": {
           "line": 84,
-          "column": 38,
-          "index": 2420
+          "column": 41,
+          "index": 2327
         }
       }
     ]
@@ -974,14 +1185,14 @@
         "pos": {
           "line": 497,
           "column": 17,
-          "index": 13349
+          "index": 12305
         }
       },
       {
         "pos": {
           "line": 803,
-          "column": 22,
-          "index": 25751
+          "column": 14,
+          "index": 22225
         }
       }
     ]
@@ -993,7 +1204,7 @@
         "pos": {
           "line": 140,
           "column": 39,
-          "index": 4073
+          "index": 3812
         }
       }
     ]
@@ -1005,14 +1216,14 @@
         "pos": {
           "line": 67,
           "column": 24,
-          "index": 1782
+          "index": 1719
         }
       },
       {
         "pos": {
           "line": 73,
           "column": 24,
-          "index": 1976
+          "index": 1907
         }
       }
     ]
@@ -1036,7 +1247,7 @@
         "pos": {
           "line": 60,
           "column": 9,
-          "index": 2285
+          "index": 2225
         }
       }
     ]
@@ -1048,21 +1259,21 @@
         "pos": {
           "line": 161,
           "column": 29,
-          "index": 4726
+          "index": 4492
         }
       },
       {
         "pos": {
           "line": 249,
-          "column": 29,
-          "index": 7089
+          "column": 27,
+          "index": 6664
         }
       },
       {
         "pos": {
           "line": 260,
           "column": 29,
-          "index": 7317
+          "index": 6864
         }
       }
     ]
@@ -1074,7 +1285,14 @@
         "pos": {
           "line": 80,
           "column": 29,
-          "index": 2574
+          "index": 2440
+        }
+      },
+      {
+        "pos": {
+          "line": 98,
+          "column": 11,
+          "index": 2804
         }
       }
     ]
@@ -1086,14 +1304,21 @@
         "pos": {
           "line": 61,
           "column": 16,
-          "index": 2443
+          "index": 2392
         }
       },
       {
         "pos": {
           "line": 134,
-          "column": 25,
-          "index": 4422
+          "column": 23,
+          "index": 4164
+        }
+      },
+      {
+        "pos": {
+          "line": 151,
+          "column": 19,
+          "index": 4602
         }
       }
     ]
@@ -1105,7 +1330,14 @@
         "pos": {
           "line": 84,
           "column": 22,
-          "index": 2864
+          "index": 2738
+        }
+      },
+      {
+        "pos": {
+          "line": 223,
+          "column": 21,
+          "index": 7261
         }
       }
     ]
@@ -1117,21 +1349,28 @@
         "pos": {
           "line": 85,
           "column": 29,
-          "index": 3044
+          "index": 2931
         }
       },
       {
         "pos": {
           "line": 91,
-          "column": 34,
-          "index": 3225
+          "column": 32,
+          "index": 3100
         }
       },
       {
         "pos": {
           "line": 100,
           "column": 34,
-          "index": 3489
+          "index": 3343
+        }
+      },
+      {
+        "pos": {
+          "line": 276,
+          "column": 15,
+          "index": 8580
         }
       }
     ]
@@ -1141,9 +1380,16 @@
     "pos": [
       {
         "pos": {
+          "line": 56,
+          "column": 21,
+          "index": 1988
+        }
+      },
+      {
+        "pos": {
           "line": 72,
-          "column": 23,
-          "index": 2534
+          "column": 21,
+          "index": 2453
         }
       }
     ]
@@ -1155,70 +1401,84 @@
         "pos": {
           "line": 145,
           "column": 31,
-          "index": 5046
+          "index": 4826
         }
       },
       {
         "pos": {
           "line": 146,
           "column": 31,
-          "index": 5101
+          "index": 4880
         }
       },
       {
         "pos": {
           "line": 156,
           "column": 27,
-          "index": 5358
+          "index": 5127
         }
       },
       {
         "pos": {
           "line": 226,
           "column": 29,
-          "index": 6845
+          "index": 6474
         }
       },
       {
         "pos": {
           "line": 236,
           "column": 31,
-          "index": 7046
+          "index": 6665
         }
       },
       {
         "pos": {
           "line": 246,
           "column": 29,
-          "index": 7249
+          "index": 6858
         }
       },
       {
         "pos": {
           "line": 256,
           "column": 29,
-          "index": 7446
+          "index": 7045
         }
       },
       {
         "pos": {
           "line": 266,
           "column": 31,
-          "index": 7644
+          "index": 7233
         }
       },
       {
         "pos": {
           "line": 276,
           "column": 31,
-          "index": 7847
+          "index": 7426
         }
       },
       {
         "pos": {
           "line": 286,
           "column": 31,
-          "index": 8053
+          "index": 7622
+        }
+      },
+      {
+        "pos": {
+          "line": 329,
+          "column": 21,
+          "index": 8684
+        }
+      },
+      {
+        "pos": {
+          "line": 351,
+          "column": 25,
+          "index": 9493
         }
       }
     ]
@@ -1230,7 +1490,7 @@
         "pos": {
           "line": 32,
           "column": 13,
-          "index": 1412
+          "index": 1409
         }
       }
     ]
@@ -1242,14 +1502,14 @@
         "pos": {
           "line": 78,
           "column": 29,
-          "index": 2910
+          "index": 2837
         }
       },
       {
         "pos": {
           "line": 134,
-          "column": 13,
-          "index": 4357
+          "column": 11,
+          "index": 4195
         }
       }
     ]
@@ -1261,7 +1521,7 @@
         "pos": {
           "line": 55,
           "column": 22,
-          "index": 1890
+          "index": 1848
         }
       }
     ]
@@ -1272,8 +1532,8 @@
       {
         "pos": {
           "line": 138,
-          "column": 46,
-          "index": 4804
+          "column": 44,
+          "index": 4503
         }
       }
     ]
@@ -1304,7 +1564,7 @@
         "pos": {
           "line": 184,
           "column": 11,
-          "index": 5459
+          "index": 5065
         }
       }
     ]
@@ -1315,15 +1575,15 @@
       {
         "pos": {
           "line": 103,
-          "column": 31,
-          "index": 3792
+          "column": 29,
+          "index": 3644
         }
       },
       {
         "pos": {
           "line": 133,
           "column": 13,
-          "index": 4489
+          "index": 4273
         }
       }
     ]
@@ -1334,22 +1594,53 @@
       {
         "pos": {
           "line": 72,
-          "column": 13,
-          "index": 2748
+          "column": 11,
+          "index": 2672
         }
       },
       {
         "pos": {
           "line": 73,
-          "column": 19,
-          "index": 2812
+          "column": 17,
+          "index": 2735
         }
       },
       {
         "pos": {
           "line": 92,
-          "column": 25,
-          "index": 3401
+          "column": 17,
+          "index": 3259
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Groups/AddGroupHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 101,
+          "column": 56,
+          "index": 2937
+        }
+      },
+      {
+        "pos": {
+          "line": 109,
+          "column": 21,
+          "index": 3280
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Groups/AddGroupMember.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 85,
+          "column": 35,
+          "index": 2288
         }
       }
     ]
@@ -1360,8 +1651,8 @@
       {
         "pos": {
           "line": 90,
-          "column": 21,
-          "index": 3249
+          "column": 19,
+          "index": 3130
         }
       }
     ]
@@ -1373,14 +1664,14 @@
         "pos": {
           "line": 55,
           "column": 32,
-          "index": 2026
+          "index": 1999
         }
       },
       {
         "pos": {
           "line": 67,
-          "column": 13,
-          "index": 2253
+          "column": 11,
+          "index": 2207
         }
       }
     ]
@@ -1392,7 +1683,19 @@
         "pos": {
           "line": 190,
           "column": 13,
-          "index": 5810
+          "index": 5528
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Groups/GroupsDetails.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 304,
+          "column": 15,
+          "index": 7796
         }
       }
     ]
@@ -1403,8 +1706,8 @@
       {
         "pos": {
           "line": 192,
-          "column": 8,
-          "index": 5884
+          "column": 6,
+          "index": 5548
         }
       }
     ]
@@ -1415,15 +1718,15 @@
       {
         "pos": {
           "line": 135,
-          "column": 6,
-          "index": 4276
+          "column": 4,
+          "index": 4042
         }
       },
       {
         "pos": {
           "line": 203,
-          "column": 8,
-          "index": 6453
+          "column": 6,
+          "index": 6132
         }
       }
     ]
@@ -1475,28 +1778,28 @@
         "pos": {
           "line": 338,
           "column": 22,
-          "index": 9118
+          "index": 8484
         }
       },
       {
         "pos": {
           "line": 613,
-          "column": 18,
-          "index": 17666
+          "column": 14,
+          "index": 16176
         }
       },
       {
         "pos": {
           "line": 653,
-          "column": 16,
-          "index": 18983
+          "column": 14,
+          "index": 17379
         }
       },
       {
         "pos": {
           "line": 705,
-          "column": 16,
-          "index": 20759
+          "column": 14,
+          "index": 19003
         }
       }
     ]
@@ -1507,8 +1810,8 @@
       {
         "pos": {
           "line": 132,
-          "column": 6,
-          "index": 4471
+          "column": 4,
+          "index": 4251
         }
       }
     ]
@@ -1520,7 +1823,7 @@
         "pos": {
           "line": 73,
           "column": 61,
-          "index": 2419
+          "index": 2350
         }
       }
     ]
@@ -1532,56 +1835,56 @@
         "pos": {
           "line": 167,
           "column": 24,
-          "index": 5799
+          "index": 5479
         }
       },
       {
         "pos": {
           "line": 167,
           "column": 43,
-          "index": 5818
+          "index": 5498
         }
       },
       {
         "pos": {
           "line": 168,
-          "column": 24,
-          "index": 5874
+          "column": 22,
+          "index": 5551
         }
       },
       {
         "pos": {
           "line": 169,
           "column": 26,
-          "index": 5929
+          "index": 5605
         }
       },
       {
         "pos": {
           "line": 170,
-          "column": 27,
-          "index": 5991
+          "column": 25,
+          "index": 5664
         }
       },
       {
         "pos": {
           "line": 171,
           "column": 28,
-          "index": 6055
+          "index": 5727
         }
       },
       {
         "pos": {
           "line": 172,
-          "column": 27,
-          "index": 6121
+          "column": 25,
+          "index": 5790
         }
       },
       {
         "pos": {
           "line": 173,
           "column": 33,
-          "index": 6190
+          "index": 5858
         }
       }
     ]
@@ -1593,7 +1896,7 @@
         "pos": {
           "line": 55,
           "column": 19,
-          "index": 2188
+          "index": 2157
         }
       }
     ]
@@ -1605,7 +1908,7 @@
         "pos": {
           "line": 58,
           "column": 14,
-          "index": 2345
+          "index": 2287
         }
       }
     ]
@@ -1629,7 +1932,19 @@
         "pos": {
           "line": 61,
           "column": 34,
-          "index": 2096
+          "index": 2039
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/NotificationEndpoints/ConfirmDeleteTargetModal.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 19,
+          "column": 11,
+          "index": 443
         }
       }
     ]
@@ -1641,7 +1956,7 @@
         "pos": {
           "line": 92,
           "column": 11,
-          "index": 4041
+          "index": 3960
         }
       }
     ]
@@ -1653,49 +1968,61 @@
         "pos": {
           "line": 119,
           "column": 17,
-          "index": 4892
+          "index": 4782
         }
       },
       {
         "pos": {
           "line": 122,
           "column": 17,
-          "index": 4971
+          "index": 4858
         }
       },
       {
         "pos": {
           "line": 125,
           "column": 17,
-          "index": 5052
+          "index": 4936
         }
       },
       {
         "pos": {
           "line": 128,
           "column": 17,
-          "index": 5133
+          "index": 5014
         }
       },
       {
         "pos": {
           "line": 131,
           "column": 17,
-          "index": 5218
+          "index": 5096
         }
       },
       {
         "pos": {
           "line": 134,
           "column": 17,
-          "index": 5299
+          "index": 5174
         }
       },
       {
         "pos": {
           "line": 137,
           "column": 15,
-          "index": 5358
+          "index": 5230
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/NotificationEndpoints/CustomForms/ResetConfigurationModal.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 80,
+          "column": 11,
+          "index": 2624
         }
       }
     ]
@@ -1707,14 +2034,14 @@
         "pos": {
           "line": 133,
           "column": 22,
-          "index": 4602
+          "index": 4394
         }
       },
       {
         "pos": {
           "line": 149,
           "column": 20,
-          "index": 5181
+          "index": 4937
         }
       }
     ]
@@ -1726,28 +2053,28 @@
         "pos": {
           "line": 93,
           "column": 12,
-          "index": 3324
+          "index": 3220
         }
       },
       {
         "pos": {
           "line": 100,
           "column": 21,
-          "index": 3581
+          "index": 3470
         }
       },
       {
         "pos": {
           "line": 101,
           "column": 18,
-          "index": 3648
+          "index": 3536
         }
       },
       {
         "pos": {
           "line": 102,
-          "column": 17,
-          "index": 3700
+          "column": 15,
+          "index": 3585
         }
       }
     ]
@@ -1758,8 +2085,27 @@
       {
         "pos": {
           "line": 82,
-          "column": 6,
-          "index": 2823
+          "column": 4,
+          "index": 2734
+        }
+      },
+      {
+        "pos": {
+          "line": 136,
+          "column": 11,
+          "index": 3802
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Policies/AddPolicyHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 82,
+          "column": 23,
+          "index": 2197
         }
       }
     ]
@@ -1770,8 +2116,8 @@
       {
         "pos": {
           "line": 58,
-          "column": 17,
-          "index": 2482
+          "column": 15,
+          "index": 2438
         }
       }
     ]
@@ -1782,8 +2128,15 @@
       {
         "pos": {
           "line": 54,
-          "column": 6,
-          "index": 1985
+          "column": 4,
+          "index": 1953
+        }
+      },
+      {
+        "pos": {
+          "line": 60,
+          "column": 11,
+          "index": 2055
         }
       }
     ]
@@ -1795,7 +2148,7 @@
         "pos": {
           "line": 168,
           "column": 13,
-          "index": 5022
+          "index": 4767
         }
       }
     ]
@@ -1807,14 +2160,14 @@
         "pos": {
           "line": 319,
           "column": 13,
-          "index": 9622
+          "index": 8972
         }
       },
       {
         "pos": {
           "line": 334,
           "column": 13,
-          "index": 9993
+          "index": 9310
         }
       }
     ]
@@ -1826,7 +2179,7 @@
         "pos": {
           "line": 46,
           "column": 30,
-          "index": 1714
+          "index": 1680
         }
       }
     ]
@@ -1837,8 +2190,8 @@
       {
         "pos": {
           "line": 166,
-          "column": 23,
-          "index": 5207
+          "column": 19,
+          "index": 4966
         }
       }
     ]
@@ -1849,8 +2202,8 @@
       {
         "pos": {
           "line": 123,
-          "column": 8,
-          "index": 4634
+          "column": 6,
+          "index": 4462
         }
       }
     ]
@@ -1873,8 +2226,8 @@
       {
         "pos": {
           "line": 205,
-          "column": 6,
-          "index": 5819
+          "column": 4,
+          "index": 5404
         }
       }
     ]
@@ -1886,7 +2239,7 @@
         "pos": {
           "line": 88,
           "column": 23,
-          "index": 3009
+          "index": 2910
         }
       }
     ]
@@ -1897,8 +2250,34 @@
       {
         "pos": {
           "line": 112,
-          "column": 6,
-          "index": 3275
+          "column": 4,
+          "index": 3081
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Support/RegisterHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 106,
+          "column": 21,
+          "index": 2722
+        }
+      },
+      {
+        "pos": {
+          "line": 110,
+          "column": 21,
+          "index": 2851
+        }
+      },
+      {
+        "pos": {
+          "line": 114,
+          "column": 21,
+          "index": 2978
         }
       }
     ]
@@ -1909,8 +2288,8 @@
       {
         "pos": {
           "line": 186,
-          "column": 22,
-          "index": 5682
+          "column": 19,
+          "index": 5276
         }
       }
     ]
@@ -1922,21 +2301,33 @@
         "pos": {
           "line": 225,
           "column": 20,
-          "index": 6707
+          "index": 6159
         }
       },
       {
         "pos": {
           "line": 379,
-          "column": 33,
-          "index": 12198
+          "column": 29,
+          "index": 11287
         }
       },
       {
         "pos": {
           "line": 384,
-          "column": 30,
-          "index": 12453
+          "column": 22,
+          "index": 11514
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Tenants/AddTenant/Steps/helpers/AddNamespaceModal.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 61,
+          "column": 11,
+          "index": 2151
         }
       }
     ]
@@ -1947,15 +2338,15 @@
       {
         "pos": {
           "line": 367,
-          "column": 39,
-          "index": 12307
+          "column": 35,
+          "index": 11527
         }
       },
       {
         "pos": {
           "line": 428,
-          "column": 39,
-          "index": 14798
+          "column": 35,
+          "index": 13860
         }
       }
     ]
@@ -1967,28 +2358,28 @@
         "pos": {
           "line": 111,
           "column": 20,
-          "index": 3586
+          "index": 3393
         }
       },
       {
         "pos": {
           "line": 118,
           "column": 20,
-          "index": 3856
+          "index": 3655
         }
       },
       {
         "pos": {
           "line": 163,
-          "column": 40,
-          "index": 5370
+          "column": 38,
+          "index": 5057
         }
       },
       {
         "pos": {
           "line": 182,
-          "column": 40,
-          "index": 6173
+          "column": 38,
+          "index": 5787
         }
       }
     ]
@@ -1999,15 +2390,15 @@
       {
         "pos": {
           "line": 208,
-          "column": 24,
-          "index": 7528
+          "column": 16,
+          "index": 7298
         }
       },
       {
         "pos": {
           "line": 216,
-          "column": 24,
-          "index": 7890
+          "column": 16,
+          "index": 7653
         }
       }
     ]
@@ -2018,15 +2409,15 @@
       {
         "pos": {
           "line": 176,
-          "column": 22,
-          "index": 6283
+          "column": 16,
+          "index": 5867
         }
       },
       {
         "pos": {
           "line": 193,
-          "column": 18,
-          "index": 6883
+          "column": 14,
+          "index": 6347
         }
       }
     ]
@@ -2037,8 +2428,20 @@
       {
         "pos": {
           "line": 247,
-          "column": 33,
-          "index": 7811
+          "column": 31,
+          "index": 7325
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Tenants/HelpBox/TLSHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 79,
+          "column": 21,
+          "index": 2164
         }
       }
     ]
@@ -2049,8 +2452,15 @@
       {
         "pos": {
           "line": 65,
-          "column": 6,
-          "index": 2565
+          "column": 4,
+          "index": 2521
+        }
+      },
+      {
+        "pos": {
+          "line": 72,
+          "column": 11,
+          "index": 2687
         }
       }
     ]
@@ -2061,8 +2471,8 @@
       {
         "pos": {
           "line": 80,
-          "column": 17,
-          "index": 2408
+          "column": 15,
+          "index": 2310
         }
       }
     ]
@@ -2074,42 +2484,42 @@
         "pos": {
           "line": 133,
           "column": 24,
-          "index": 3906
+          "index": 3645
         }
       },
       {
         "pos": {
           "line": 139,
           "column": 24,
-          "index": 4081
+          "index": 3814
         }
       },
       {
         "pos": {
           "line": 190,
           "column": 13,
-          "index": 5654
+          "index": 5300
         }
       },
       {
         "pos": {
           "line": 296,
           "column": 27,
-          "index": 9454
+          "index": 8895
         }
       },
       {
         "pos": {
           "line": 315,
           "column": 29,
-          "index": 10188
+          "index": 9559
         }
       },
       {
         "pos": {
           "line": 330,
           "column": 29,
-          "index": 10797
+          "index": 10105
         }
       }
     ]
@@ -2120,8 +2530,15 @@
       {
         "pos": {
           "line": 61,
-          "column": 6,
-          "index": 2322
+          "column": 4,
+          "index": 2282
+        }
+      },
+      {
+        "pos": {
+          "line": 67,
+          "column": 11,
+          "index": 2433
         }
       }
     ]
@@ -2132,8 +2549,15 @@
       {
         "pos": {
           "line": 63,
-          "column": 6,
-          "index": 2346
+          "column": 4,
+          "index": 2290
+        }
+      },
+      {
+        "pos": {
+          "line": 69,
+          "column": 11,
+          "index": 2440
         }
       }
     ]
@@ -2144,22 +2568,22 @@
       {
         "pos": {
           "line": 152,
-          "column": 36,
-          "index": 4570
+          "column": 34,
+          "index": 4338
         }
       },
       {
         "pos": {
           "line": 200,
-          "column": 13,
-          "index": 5911
+          "column": 11,
+          "index": 5605
         }
       },
       {
         "pos": {
           "line": 250,
-          "column": 31,
-          "index": 8038
+          "column": 29,
+          "index": 7539
         }
       }
     ]
@@ -2170,8 +2594,8 @@
       {
         "pos": {
           "line": 277,
-          "column": 38,
-          "index": 9786
+          "column": 36,
+          "index": 9197
         }
       }
     ]
@@ -2182,8 +2606,20 @@
       {
         "pos": {
           "line": 70,
-          "column": 14,
-          "index": 2660
+          "column": 10,
+          "index": 2595
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Tenants/TenantDetails/hop/Hop.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 91,
+          "column": 15,
+          "index": 2801
         }
       }
     ]
@@ -2195,28 +2631,28 @@
         "pos": {
           "line": 64,
           "column": 18,
-          "index": 1792
+          "index": 1711
         }
       },
       {
         "pos": {
           "line": 71,
           "column": 18,
-          "index": 2027
+          "index": 1938
         }
       },
       {
         "pos": {
           "line": 102,
-          "column": 27,
-          "index": 3181
+          "column": 25,
+          "index": 3038
         }
       },
       {
         "pos": {
           "line": 118,
-          "column": 27,
-          "index": 3868
+          "column": 25,
+          "index": 3686
         }
       }
     ]
@@ -2227,8 +2663,8 @@
       {
         "pos": {
           "line": 208,
-          "column": 38,
-          "index": 7054
+          "column": 36,
+          "index": 6636
         }
       }
     ]
@@ -2239,8 +2675,8 @@
       {
         "pos": {
           "line": 208,
-          "column": 38,
-          "index": 7171
+          "column": 36,
+          "index": 6756
         }
       }
     ]
@@ -2251,15 +2687,15 @@
       {
         "pos": {
           "line": 230,
-          "column": 19,
-          "index": 5832
+          "column": 15,
+          "index": 5609
         }
       },
       {
         "pos": {
           "line": 247,
-          "column": 19,
-          "index": 6252
+          "column": 15,
+          "index": 5989
         }
       }
     ]
@@ -2271,14 +2707,14 @@
         "pos": {
           "line": 52,
           "column": 10,
-          "index": 1898
+          "index": 1859
         }
       },
       {
         "pos": {
           "line": 53,
           "column": 23,
-          "index": 1945
+          "index": 1905
         }
       }
     ]
@@ -2289,8 +2725,8 @@
       {
         "pos": {
           "line": 68,
-          "column": 6,
-          "index": 2660
+          "column": 4,
+          "index": 2597
         }
       }
     ]
@@ -2302,14 +2738,21 @@
         "pos": {
           "line": 82,
           "column": 19,
-          "index": 3117
+          "index": 3003
         }
       },
       {
         "pos": {
           "line": 88,
           "column": 19,
-          "index": 3278
+          "index": 3156
+        }
+      },
+      {
+        "pos": {
+          "line": 134,
+          "column": 45,
+          "index": 4153
         }
       }
     ]
@@ -2320,8 +2763,8 @@
       {
         "pos": {
           "line": 186,
-          "column": 22,
-          "index": 5684
+          "column": 19,
+          "index": 5278
         }
       }
     ]
@@ -2333,14 +2776,21 @@
         "pos": {
           "line": 91,
           "column": 19,
-          "index": 3285
+          "index": 3150
         }
       },
       {
         "pos": {
           "line": 111,
           "column": 19,
-          "index": 3794
+          "index": 3629
+        }
+      },
+      {
+        "pos": {
+          "line": 157,
+          "column": 45,
+          "index": 4624
         }
       }
     ]
@@ -2351,8 +2801,8 @@
       {
         "pos": {
           "line": 186,
-          "column": 22,
-          "index": 5753
+          "column": 19,
+          "index": 5347
         }
       }
     ]
@@ -2364,7 +2814,7 @@
         "pos": {
           "line": 75,
           "column": 27,
-          "index": 2484
+          "index": 2390
         }
       }
     ]
@@ -2375,15 +2825,15 @@
       {
         "pos": {
           "line": 119,
-          "column": 19,
-          "index": 3894
+          "column": 15,
+          "index": 3770
         }
       },
       {
         "pos": {
           "line": 136,
-          "column": 19,
-          "index": 4302
+          "column": 15,
+          "index": 4138
         }
       }
     ]
@@ -2395,14 +2845,14 @@
         "pos": {
           "line": 106,
           "column": 10,
-          "index": 4078
+          "index": 3915
         }
       },
       {
         "pos": {
           "line": 107,
           "column": 23,
-          "index": 4125
+          "index": 3961
         }
       }
     ]
@@ -2414,14 +2864,14 @@
         "pos": {
           "line": 232,
           "column": 11,
-          "index": 7544
+          "index": 7102
         }
       },
       {
         "pos": {
           "line": 244,
           "column": 15,
-          "index": 7881
+          "index": 7427
         }
       }
     ]
@@ -2432,22 +2882,22 @@
       {
         "pos": {
           "line": 344,
-          "column": 36,
-          "index": 11772
+          "column": 34,
+          "index": 11036
         }
       },
       {
         "pos": {
           "line": 705,
-          "column": 32,
-          "index": 26713
+          "column": 22,
+          "index": 24122
         }
       },
       {
         "pos": {
           "line": 771,
-          "column": 32,
-          "index": 29835
+          "column": 22,
+          "index": 26803
         }
       }
     ]
@@ -2459,7 +2909,7 @@
         "pos": {
           "line": 403,
           "column": 11,
-          "index": 12927
+          "index": 11943
         }
       }
     ]
@@ -2470,8 +2920,8 @@
       {
         "pos": {
           "line": 337,
-          "column": 21,
-          "index": 10095
+          "column": 19,
+          "index": 9303
         }
       }
     ]
@@ -2482,8 +2932,8 @@
       {
         "pos": {
           "line": 96,
-          "column": 17,
-          "index": 3283
+          "column": 15,
+          "index": 3147
         }
       }
     ]
@@ -2494,8 +2944,8 @@
       {
         "pos": {
           "line": 133,
-          "column": 36,
-          "index": 4083
+          "column": 34,
+          "index": 3892
         }
       }
     ]
@@ -2506,8 +2956,8 @@
       {
         "pos": {
           "line": 103,
-          "column": 6,
-          "index": 3743
+          "column": 4,
+          "index": 3604
         }
       }
     ]
@@ -2519,7 +2969,7 @@
         "pos": {
           "line": 161,
           "column": 28,
-          "index": 5258
+          "index": 5079
         }
       }
     ]
@@ -2531,14 +2981,40 @@
         "pos": {
           "line": 146,
           "column": 16,
-          "index": 4630
+          "index": 4363
         }
       },
       {
         "pos": {
           "line": 159,
-          "column": 6,
-          "index": 5035
+          "column": 4,
+          "index": 4760
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Users/AddUserHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 103,
+          "column": 55,
+          "index": 2814
+        }
+      },
+      {
+        "pos": {
+          "line": 104,
+          "column": 56,
+          "index": 2898
+        }
+      },
+      {
+        "pos": {
+          "line": 107,
+          "column": 21,
+          "index": 3011
         }
       }
     ]
@@ -2549,8 +3025,34 @@
       {
         "pos": {
           "line": 114,
-          "column": 27,
-          "index": 3886
+          "column": 25,
+          "index": 3712
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Users/AddUserServiceAccountHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 89,
+          "column": 23,
+          "index": 2297
+        }
+      },
+      {
+        "pos": {
+          "line": 100,
+          "column": 23,
+          "index": 2712
+        }
+      },
+      {
+        "pos": {
+          "line": 117,
+          "column": 23,
+          "index": 3441
         }
       }
     ]
@@ -2562,14 +3064,14 @@
         "pos": {
           "line": 160,
           "column": 13,
-          "index": 5546
+          "index": 5256
         }
       },
       {
         "pos": {
           "line": 199,
           "column": 17,
-          "index": 6595
+          "index": 6180
         }
       }
     ]
@@ -2580,8 +3082,15 @@
       {
         "pos": {
           "line": 49,
-          "column": 6,
-          "index": 1965
+          "column": 4,
+          "index": 1938
+        }
+      },
+      {
+        "pos": {
+          "line": 55,
+          "column": 11,
+          "index": 2044
         }
       }
     ]
@@ -2592,36 +3101,36 @@
       {
         "pos": {
           "line": 87,
-          "column": 6,
-          "index": 3296
+          "column": 4,
+          "index": 3206
         }
       },
       {
         "pos": {
           "line": 103,
           "column": 25,
-          "index": 3726
+          "index": 3604
         }
       },
       {
         "pos": {
           "line": 107,
           "column": 34,
-          "index": 3891
+          "index": 3764
         }
       },
       {
         "pos": {
           "line": 109,
           "column": 17,
-          "index": 3994
+          "index": 3865
         }
       },
       {
         "pos": {
           "line": 130,
-          "column": 13,
-          "index": 4379
+          "column": 9,
+          "index": 4205
         }
       }
     ]
@@ -2632,8 +3141,15 @@
       {
         "pos": {
           "line": 60,
-          "column": 6,
-          "index": 2144
+          "column": 4,
+          "index": 2106
+        }
+      },
+      {
+        "pos": {
+          "line": 67,
+          "column": 11,
+          "index": 2210
         }
       }
     ]
@@ -2644,8 +3160,8 @@
       {
         "pos": {
           "line": 170,
-          "column": 6,
-          "index": 5586
+          "column": 4,
+          "index": 5350
         }
       }
     ]
@@ -2657,7 +3173,7 @@
         "pos": {
           "line": 223,
           "column": 13,
-          "index": 7292
+          "index": 6894
         }
       }
     ]
@@ -2669,28 +3185,54 @@
         "pos": {
           "line": 122,
           "column": 21,
-          "index": 4551
+          "index": 4403
         }
       },
       {
         "pos": {
           "line": 123,
           "column": 21,
-          "index": 4593
+          "index": 4444
         }
       },
       {
         "pos": {
           "line": 124,
           "column": 15,
-          "index": 4629
+          "index": 4479
         }
       },
       {
         "pos": {
           "line": 143,
           "column": 34,
-          "index": 5059
+          "index": 4888
+        }
+      }
+    ]
+  },
+  {
+    "filePath": "E:/main/minio-console/portal-ui/src/screens/Console/Users/UsersHelpBox.tsx",
+    "pos": [
+      {
+        "pos": {
+          "line": 91,
+          "column": 55,
+          "index": 2208
+        }
+      },
+      {
+        "pos": {
+          "line": 99,
+          "column": 56,
+          "index": 2656
+        }
+      },
+      {
+        "pos": {
+          "line": 111,
+          "column": 21,
+          "index": 3128
         }
       }
     ]
@@ -2701,8 +3243,8 @@
       {
         "pos": {
           "line": 132,
-          "column": 8,
-          "index": 4304
+          "column": 6,
+          "index": 4080
         }
       }
     ]
@@ -2713,8 +3255,8 @@
       {
         "pos": {
           "line": 142,
-          "column": 27,
-          "index": 4411
+          "column": 25,
+          "index": 4105
         }
       }
     ]
@@ -2726,7 +3268,7 @@
         "pos": {
           "line": 280,
           "column": 17,
-          "index": 7247
+          "index": 6531
         }
       }
     ]

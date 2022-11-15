@@ -6,15 +6,14 @@ import generator from '@babel/generator';
 import t from '@babel/types';
 import glob from 'glob';
 import fs from 'fs';
-import { createTFN, createAst, skipMixin, validateString, unshiftI18nModule } from './utils.mjs';
-import { uiSrcDir } from './config.mjs';
+import { createTFN, createAst, validateString, unshiftI18nModule } from './utils.mjs';
+import { uiSrcDir, ignoreFiles } from './config.mjs';
 
 function createTraverse(traverseOptions) {
   return (code) => {
     let ast = createAst(code);
     let templateString = [];
     traverse.default(ast, {
-      ...skipMixin,
       ...traverseOptions,
     });
     unshiftI18nModule(ast);
@@ -97,22 +96,15 @@ const files = [
 
 files.forEach((item) => {
   const files = glob.sync(`${uiSrcDir}${item.path}`);
-  console.log('=============== 添加国际化方法开始 START =============');
-  const ignorePath = ['screens/Console/Common/IconsScreen'];
+  console.log('=============== 添加国际化方法 START =============');
   let editTotal = 0;
   files.forEach((filePath) => {
-    if (ignorePath.map((f) => filePath.includes(f)).filter((i) => i).length) {
-      return;
-    }
-    console.log('File: ', filePath);
     const code = fs.readFileSync(filePath).toString('utf-8');
     const { output, isTransform, templateString } = item.traverse(code);
     if (isTransform) {
       editTotal += 1;
-      console.log('已修改 (Modified)');
+      console.log('已修改 (Modified)', filePath);
       fs.writeFileSync(filePath, output.code);
-    } else {
-      // console.log('无需修改 (Unmodified)')
     }
     if (templateString.length) {
       templateFiles.push({
@@ -121,8 +113,6 @@ files.forEach((item) => {
       });
     }
   });
-  console.log('文件总数 (Total Files):', files.length);
-  console.log('已修改数 (Modified):', editTotal);
-  console.log('未修改数 (Unmodified):', files.length - editTotal);
-  console.log('=============== 添加国际化方法结束 END =============');
+  console.log('已修改 (Modified):', editTotal);
+  console.log('=============== 添加国际化方法 END =============');
 });

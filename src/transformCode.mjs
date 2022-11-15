@@ -11,7 +11,6 @@ import {
   validateString,
   createTFN,
   createAst,
-  skipMixin,
   unshiftI18nModule,
   transformNotParamsTempStr,
   isImportI18nextModule,
@@ -43,12 +42,49 @@ export function transformFile(code) {
   let isTransform = false;
   let templateString = [];
   let ast = createAst(code);
+
   traverse.default(ast, {
-    ...skipMixin,
-
+    enter(p) {
+      // import 直接跳过
+      if (t.isImportDeclaration(p)) {
+        p.skip();
+      }
+      // createStyles 方法直接跳过，严谨来说应该判断上下文
+      if (t.isCallExpression(p) && p.node.callee.name === 'createStyles') {
+        p.skip();
+      }
+      // 判断条件直接跳过
+      if (t.isBinaryExpression(p)) {
+        p.skip();
+      }
+    },
+    ConditionalExpression(p) {
+      /**
+       * 三目运算中的判断
+       * 是否是 jsx，parent 不是变量
+       */
+      if (
+        t.isJSXElement(p.node.consequent) ||
+        t.isJSXElement(p.node.alternate) ||
+        !t.isVariableDeclarator(p.parent)
+      ) {
+        return;
+      }
+      // 判断是否在 react 组件中
+      let isJsxChildren = false;
+      p.findParent((parentPath) => {
+        if (t.isJSXElement(parentPath.node)) {
+          isJsxChildren = true;
+        }
+      });
+      if (isJsxChildren) {
+        return;
+      }
+      p.skip();
+    },
     CallExpression(p) {
+      // 针对函数做判断
       const fnName = p.node.callee.name;
-
       if (t.isMemberExpression(p.node.callee)) {
         if (p.node.callee.object.name === 'api' && p.node.callee.property.name === 'invoke') {
           p.skip();
@@ -80,7 +116,6 @@ export function transformFile(code) {
       if (isSkipJsxAttrRule(p)) {
         p.skip();
       } else {
-        const attr = p.node.name.name;
         const value = p.node.value?.value;
 
         if (validateString(value) && p.node.value.type === 'StringLiteral') {
@@ -117,11 +152,11 @@ export function transformFile(code) {
       // },
       // 对 VerticalTabs 的 tabConfig 中的 label 进行国际化
       if (compName === 'VerticalTabs') {
-        p.node.children.map((c) => {
+        p.node.children.forEach((c) => {
           if (t.isJSXExpressionContainer(c) && t.isObjectExpression(c.expression)) {
-            c.expression.properties = c.expression.properties.map((p) => {
+            c.expression.properties.forEach((p) => {
               if (t.isObjectProperty(p) && p.key.name === 'tabConfig') {
-                p.value.properties = p.value.properties.map((item) => {
+                p.value.properties.forEach((item) => {
                   if (item.key.name === 'label' && t.isStringLiteral(item.value)) {
                     const str = item.value.value;
                     if (validateString(str)) {
@@ -129,16 +164,11 @@ export function transformFile(code) {
                       item.value = createTFN(item.value.value);
                     }
                   }
-                  return item;
                 });
               }
-              return p;
             });
           }
-          return c;
         });
-
-        p.replaceWith(p);
       }
 
       if (includeCompObjectAttrs.map((i) => i.name).includes(compName)) {
