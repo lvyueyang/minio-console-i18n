@@ -2,7 +2,6 @@ const fs = require('fs')
 const path = require('path')
 const { execSync } = require('child_process')
 const diff = require('diff')
-const { count } = require('console')
 
 // 获取变动的文件
 const status = execSync(`cd ../minio-console

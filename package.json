@@ -8,7 +8,7 @@
     "sp": "node ./src/special.mjs",
     "ext": "node ./src/extract.mjs",
     "zh": "node ./src/toZh.mjs",
-    "diff": "node ./src/diff.cjs",
+    "diff": "node ./src/clearWrapLine.cjs",
     "all": "npm run start & npm run sp & npm run ext"
   },
   "author": "",
