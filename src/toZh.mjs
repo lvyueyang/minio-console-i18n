@@ -2,7 +2,6 @@
  * 对 en.json 中的值进行翻译
  */
 import fs from 'fs';
-import path from 'path';
 import { cnFileJson, enFileJson, __dirname } from './config.mjs';
 import fanyi from '../fanyi/index.mjs';
 
@@ -26,8 +25,7 @@ if (fs.statSync(cnFileJson).isFile()) {
 const enList = Object.entries(en);
 const total = enList.length;
 
-console.log(`新增 ${total - Object.values(zhCN).length} 个`);
-console.log(`Add ${total - Object.values(zhCN).length} files`);
+console.log(`新增 (Add) ${total - Object.values(zhCN).length}`);
 
 const logData = {
   skip: [],

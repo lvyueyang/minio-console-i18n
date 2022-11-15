@@ -1417,5 +1417,8 @@
   "# Associated Access Keys": "#关联的访问密钥",
   "Backend type": "后端类型",
   "Standard storage class parity": "标准存储类奇偶校验",
-  "Reduced redundancy storage class parity": "减少冗余存储类奇偶校验"
+  "Reduced redundancy storage class parity": "减少冗余存储类奇偶校验",
+  "Click to Collapse Menu": "单击以折叠菜单",
+  "Current Audit logs functionality will be deprecated soon, please refer to the": "当前的审核日志功能将很快被弃用，请参阅",
+  "in order to setup an external service for logs": "为了设置日志的外部服务"
 }
