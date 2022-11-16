@@ -5,7 +5,7 @@ import traverse from '@babel/traverse';
 import generator from '@babel/generator';
 import t from '@babel/types';
 
-import { includeCompAttrs, includeCompObjectAttrs } from './config.mjs';
+import { includeCommonCompAttrs, includeCompAttrs } from './config.mjs';
 import {
   strZip,
   validateString,
@@ -20,20 +20,27 @@ import {
 const isSkipJsxAttrRule = (p) => {
   /** 组件名称 */
   const compName = p.parent.name.name;
-  /** 组件属性 */
+  /** 组件属性名称 */
   const attrName = p.node.name.name;
+  /** 属性值 */
   const attrValue = p.node.value;
 
-  if (t.isJSXExpressionContainer && t.isJSXElement(attrValue?.expression)) {
-    // 对属性值是 jsxElement 无需后续精确判断
+  // 对属性值是 jsxElement 无需后续精确判断
+  if (t.isJSXElement(attrValue?.expression)) {
     return false;
   }
-  const isInclude = includeCompAttrs.some(
-    (item) => item.name === compName && item.attrs.includes(attrName)
-  );
-  if (isInclude || ['placeholder', 'label'].includes(attrName)) {
+
+  // 通用属性
+  if (includeCommonCompAttrs.includes(attrName)) {
     return false;
   }
+
+  // 精确匹配
+  const isInclude = includeCompAttrs[compName]?.attrs?.includes(attrName);
+  if (isInclude) {
+    return false;
+  }
+
   return true;
 };
 
@@ -42,6 +49,31 @@ export function transformFile(code) {
   let isTransform = false;
   let templateString = [];
   let ast = createAst(code);
+
+  // 对 object 中所有相关的 key 进行递归转换
+  const transformObjectKey = (properties, valueKeys) => {
+    if (!Array.isArray(properties)) return;
+    properties.forEach((prop) => {
+      // 字符串属性
+      if (t.isStringLiteral(prop?.value)) {
+        const includeKey = valueKeys.includes(prop?.key?.name);
+        if (includeKey) {
+          prop.value = createTFN(prop.value.value);
+          isTransform = true;
+        }
+      }
+      // 数组 递归
+      if (t.isArrayExpression(prop?.value)) {
+        prop?.value?.elements.forEach((ele) => {
+          transformObjectKey(ele.properties);
+        });
+      }
+      // 对象 递归
+      if (t.isObjectExpression(prop?.value)) {
+        transformObjectKey(prop?.value?.properties);
+      }
+    });
+  };
 
   traverse.default(ast, {
     enter(p) {
@@ -116,13 +148,56 @@ export function transformFile(code) {
       if (isSkipJsxAttrRule(p)) {
         p.skip();
       } else {
-        const value = p.node.value?.value;
+        /** 组件名称 */
+        const compName = p.parent.name.name;
+        /** 组件属性名称 */
+        const attrName = p.node.name.name;
+        /** 属性值 */
+        const attrValue = p.node.value;
+        const value = attrValue?.value;
 
-        if (validateString(value) && p.node.value.type === 'StringLiteral') {
-          p.replaceWith(
-            t.JSXAttribute(p.node.name, t.jsxExpressionContainer(t.stringLiteral(strZip(value))))
-          );
+        if (validateString(value) && t.isStringLiteral(attrValue)) {
+          p.node.value = t.jsxExpressionContainer(createTFN(value));
           isTransform = true;
+        }
+        if (t.isJSXExpressionContainer(attrValue)) {
+          const valueKeys = includeCompAttrs[compName]?.keys?.[attrName];
+          if (!valueKeys?.length) {
+            return;
+          }
+
+          // 针对数组
+          // <SelectWrapper
+          //   options={[{ label: "readonly", value: "readonly" }]}
+          // />
+          // 针对直接使用数组变量形式做出国际化
+          if (t.isArrayExpression(attrValue.expression)) {
+            attrValue.expression.elements.forEach((ele) => {
+              transformObjectKey(ele.properties, valueKeys);
+            });
+          }
+          // 针对对象
+          // <SelectWrapper
+          //   options={{ label: "readonly", value: "readonly" }}
+          // />
+          if (t.isObjectExpression(attrValue.expression)) {
+            transformObjectKey(attrValue.expression.properties, valueKeys);
+          }
+          // 针对引用类型取作用域，然后改变
+          // const accessOptions = [{ label: "readonly", value: "readonly" }]
+          // <SelectWrapper
+          //   options={accessOptions}
+          // />
+          if (t.isIdentifier(attrValue.expression)) {
+            const isIdentifierName = attrValue.expression.name;
+            const valuePath = p.scope.getBinding(isIdentifierName).path;
+            const valueNode = valuePath.node;
+            if (t.isVariableDeclarator(valueNode)) {
+              valueNode.init.elements?.forEach((ele) => {
+                transformObjectKey(ele.properties, valueKeys);
+              });
+            }
+          }
         }
         return;
       }
@@ -131,7 +206,7 @@ export function transformFile(code) {
       const { node } = p;
       const { value } = node;
       if (validateString(value)) {
-        p.replaceWith(t.jsxExpressionContainer(t.stringLiteral(strZip(value))));
+        p.replaceWith(t.jsxExpressionContainer(createTFN(value)));
         isTransform = true;
         return;
       }
@@ -170,69 +245,6 @@ export function transformFile(code) {
           }
         });
       }
-
-      if (includeCompObjectAttrs.map((i) => i.name).includes(compName)) {
-        let isTran = false;
-        p.node.openingElement.attributes.forEach((attr) => {
-          const includeCompAttr = includeCompObjectAttrs.filter(
-            (i) => i.name === compName && i.attrs.includes(attr.name.name)
-          );
-
-          if (includeCompAttr.length) {
-            // 针对数组
-            // <SelectWrapper
-            //   options={[{ label: "readonly", value: "readonly" }]}
-            // />
-            // 针对直接使用数组变量形式做出国际化
-            if (t.isArrayExpression(attr.value.expression)) {
-              attr.value.expression.elements.forEach((ele) => {
-                ele.properties?.forEach((prop) => {
-                  const includeKey = includeCompAttr.filter((i) =>
-                    i.objectKeys.includes(prop?.key?.name)
-                  );
-
-                  if (includeKey?.length && t.isStringLiteral(prop?.value)) {
-                    prop.value = createTFN(prop.value.value);
-                    isTran = true;
-                  }
-                });
-              });
-            }
-            // 针对引用类型取作用域，然后改变
-            // const accessOptions = [{ label: "readonly", value: "readonly" }]
-            // <SelectWrapper
-            //   options={accessOptions}
-            // />
-            if (t.isIdentifier(attr.value.expression)) {
-              const isIdentifierName = attr.value.expression.name;
-              const valuePath = p.scope.getBinding(isIdentifierName).path;
-              const valueNode = valuePath.node;
-              let scopeIsTran = false;
-              if (t.isVariableDeclarator(valueNode)) {
-                valueNode.init.elements?.forEach((ele) => {
-                  ele.properties?.forEach((prop) => {
-                    const includeKey = includeCompAttr.filter((i) =>
-                      i.objectKeys.includes(prop?.key?.name)
-                    );
-                    if (includeKey.length && t.isStringLiteral(prop?.value)) {
-                      prop.value = createTFN(prop.value.value);
-                      scopeIsTran = true;
-                    }
-                  });
-                });
-              }
-              if (scopeIsTran) {
-                valuePath.replaceWith(valuePath);
-                isTransform = true;
-              }
-            }
-          }
-        });
-        if (isTran) {
-          p.replaceWith(p);
-          isTransform = true;
-        }
-      }
     },
     StringLiteral(p) {
       const { node, parent } = p;
@@ -245,7 +257,6 @@ export function transformFile(code) {
           return;
         }
       }
-
       p.skip();
     },
     TemplateLiteral(p) {

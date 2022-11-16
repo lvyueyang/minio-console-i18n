@@ -1,0 +1,22 @@
+{
+  "FormLayout": { "attrs": ["title", "helpbox"] },
+  "HelpBox": { "attrs": ["title", "help"] },
+  "TooltipWrapper": { "attrs": ["tooltip"] },
+  "InputBoxWrapper": { "attrs": ["overlayObject", "error", "tooltip"] },
+  "ScreenTitle": { "attrs": ["subTitle", "actions"] },
+  "BrowserBreadcrumbs": { "attrs": ["additionalOptions"] },
+  "TableWrapper": { "attrs": ["customEmptyMessage", "columns"], "keys": { "columns": ["label"] } },
+  "ActionsListSection": { "attrs": ["title", "items"], "keys": { "items": ["label"] } },
+  "ModalWrapper": { "attrs": ["title"] },
+  "PageHeader": { "attrs": ["actions"] },
+  "EditablePropertyItem": { "attrs": ["actions", "property"] },
+  "FormSwitchWrapper": { "attrs": ["description"] },
+  "FeatureItem": { "attrs": ["description"] },
+  "ConfirmDialog": { "attrs": ["title", "confirmationContent", "confirmText", "cancelText"] },
+  "ListItemText": { "attrs": ["primary"] },
+  "SiteTypeHeader": { "attrs": ["title"] },
+  "WarningMessage": { "attrs": ["title"] },
+  "SelectWrapper": { "attrs": ["options"], "keys": { "options": ["label"] } },
+  "RadioGroupSelector": { "attrs": ["selectorOptions"], "keys": { "selectorOptions": ["label"] } },
+  "InputUnitMenu": { "attrs": ["unitsList"], "keys": { "unitsList": ["label"] } }
+}

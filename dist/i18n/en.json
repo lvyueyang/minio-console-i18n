@@ -809,7 +809,7 @@
   "Show": "Show",
   "advanced Filters": "advanced Filters",
   "Enable your preferred options to get filtered records.": "Enable your preferred options to get filtered records.",
-  "You can use '*' to match any character, '.' to signify a single character or '' to scape an special character (E.g. mybucket-*)": "You can use '*' to match any character, '.' to signify a single character or '' to scape an special character (E.g. mybucket-*)",
+  "You can use '*' to match any character, '.' to signify a single character or '\\' to scape an special character (E.g. mybucket-*)": "You can use '*' to match any character, '.' to signify a single character or '\\' to scape an special character (E.g. mybucket-*)",
   "API Name": "API Name",
   "User Agent": "User Agent",
   "Request ID": "Request ID",
